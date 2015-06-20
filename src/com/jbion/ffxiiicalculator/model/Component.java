@@ -2,12 +2,13 @@ package com.jbion.ffxiiicalculator.model;
 
 public class Component extends ItemType {
 
-    public static enum ComponentClass {
+    public static enum Type {
         ORGANIC,
-        SYNTHETIC;
+        SYNTHETIC,
+        CATALYST;
     }
 
-    private final ComponentClass type;
+    private final Type type;
 
     private final int[] expPerRank;
 
@@ -18,19 +19,23 @@ public class Component extends ItemType {
     }
 
     public Component(String name, int rank, int[] expPerRank, int multiplierPoints, int sellPrice, Integer buyPrice,
-            ComponentClass type, Shop shopToBuy, Integer chapterAvailability) {
+            Type type, Shop shopToBuy, Integer chapterAvailability) {
         super(name, rank, sellPrice, buyPrice, shopToBuy, chapterAvailability);
         this.expPerRank = expPerRank;
         this.multiplierPoints = multiplierPoints;
         this.type = type;
     }
 
+    public Type getType() {
+        return type;
+    }
+
     public boolean isOrganic() {
-        return type == ComponentClass.ORGANIC;
+        return type == Type.ORGANIC;
     }
 
     public boolean isSynthetic() {
-        return type == ComponentClass.SYNTHETIC;
+        return type == Type.SYNTHETIC;
     }
 
     public int getExperience(int itemRank) {
@@ -39,6 +44,14 @@ public class Component extends ItemType {
 
     public int getBonusPoints() {
         return multiplierPoints;
+    }
+
+    public double getBonusRatio() {
+        Integer price = getBuyPrice();
+        if (price == null) {
+            return 0;
+        }
+        return (double) multiplierPoints / (double) price;
     }
 
 }
