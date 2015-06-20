@@ -1,6 +1,6 @@
 package com.jbion.ffxiiicalculator.model;
 
-public class Component extends ItemType {
+public class Component extends Item {
 
     public static enum Type {
         ORGANIC,
@@ -52,6 +52,14 @@ public class Component extends ItemType {
             return 0;
         }
         return (double) multiplierPoints / (double) price;
+    }
+
+    public double getExpRatio(int targetRank) {
+        Integer price = getBuyPrice();
+        if (price == null) {
+            return 0;
+        }
+        return (double) getExperience(targetRank) / (double) price;
     }
 
 }

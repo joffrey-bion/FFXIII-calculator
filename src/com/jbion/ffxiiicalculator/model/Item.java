@@ -2,67 +2,53 @@ package com.jbion.ffxiiicalculator.model;
 
 public class Item {
 
-    private final ItemType type;
+    private final String name;
 
-    private int experience = 0;
+    private final int rank;
 
-    private int bonusPoints = 0;
+    private final int sellPrice;
 
-    public Item(ItemType type, int level, int experienceInLevel, int bonusPoints) {
-        this.type = type;
-        this.bonusPoints = bonusPoints;
-        computeInitialExperience(level, experienceInLevel);
+    private final Integer buyPrice;
+
+    private final Shop shopToBuy;
+
+    private final Integer chapterAvailability;
+
+    public Item(String name, int rank, int sellPrice, Integer buyPrice, Shop shopToBuy, Integer chapterAvailability) {
+        this.name = name;
+        this.rank = rank;
+        this.buyPrice = buyPrice;
+        this.sellPrice = sellPrice;
+        this.shopToBuy = shopToBuy;
+        this.chapterAvailability = chapterAvailability;
     }
 
-    private void computeInitialExperience(int level, int experienceInLevel) {
-        // TODO
-        experience = 0;
+    public String getName() {
+        return name;
     }
 
-    public ItemType getType() {
-        return type;
+    public int getRank() {
+        return rank;
     }
 
-    public int getExperience() {
-        return experience;
+    public boolean isBuyable(int currentChapter) {
+        return buyPrice != null && shopToBuy != null && chapterAvailability != null
+                && chapterAvailability <= currentChapter;
     }
 
-    public void setExperience(int exp) {
-        experience = exp;
+    public Integer getBuyPrice() {
+        return buyPrice;
     }
 
-    public void addExperience(int exp) {
-        experience += (int) Math.round(exp * getExpMultiplier());
+    public int getSellPrice() {
+        return sellPrice;
     }
 
-    public int getBonusPoints() {
-        return bonusPoints;
+    public Shop getShopToBuy() {
+        return shopToBuy;
     }
 
-    public void setBonusPoints(int points) {
-        bonusPoints = points;
-    }
-
-    public void addBonusPoints(int points) {
-        bonusPoints += points;
-        if (bonusPoints < 0) {
-            bonusPoints = 0;
-        }
-    }
-
-    private double getExpMultiplier() {
-        if (bonusPoints <= 50) {
-            return 1;
-        } else if (bonusPoints <= 100) {
-            return 1.25;
-        } else if (bonusPoints <= 200) {
-            return 1.5;
-        } else if (bonusPoints <= 250) {
-            return 1.75;
-        } else if (bonusPoints <= 500) {
-            return 2;
-        } else {
-            return 3;
-        }
+    public Integer getChapterAvailability() {
+        return chapterAvailability;
     }
 }
