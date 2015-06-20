@@ -3,12 +3,12 @@ package com.jbion.ffxiiicalculator;
 import com.jbion.ffxiiicalculator.model.Component;
 import com.jbion.ffxiiicalculator.model.ComponentPool;
 import com.jbion.ffxiiicalculator.model.ComponentSequence;
-import com.jbion.ffxiiicalculator.model.Item;
+import com.jbion.ffxiiicalculator.model.ItemInstance;
 import com.jbion.ffxiiicalculator.model.UpgradePlan;
 
 public class Calculator {
 
-    public static UpgradePlan upgrade(ComponentPool inventory, Item itemToUpgrade) {
+    public static UpgradePlan upgrade(ComponentPool inventory, ItemInstance itemToUpgrade) {
         UpgradePlan upgradePlan = new UpgradePlan();
 
         int targetRank = itemToUpgrade.getType().getRank();
@@ -37,14 +37,14 @@ public class Calculator {
         return null;
     }
 
-    private static int computeTargetExp(Item itemToUpgrade) {
+    private static int computeTargetExp(ItemInstance itemToUpgrade) {
         // TODO Auto-generated method stub
         return 0;
     }
 
-    private static ComponentSequence optimizeExp(ComponentPool components, Item item, int targetExp) {
+    private static ComponentSequence optimizeExp(ComponentPool components, ItemInstance itemInstance, int targetExp) {
         ComponentSequence currentOptimalSeq = new ComponentSequence();
-        int optimalExp = item.getExperience();
+        int optimalExp = itemInstance.getExperience();
         currentOptimalSeq.setExpReached(optimalExp);
         boolean targetReachedByOpt = optimalExp >= targetExp;
 
@@ -59,12 +59,12 @@ public class Calculator {
             int availableCount = components.getCount(comp);
             for (int count = availableCount; count > 0; count--) {
                 components.remove(comp, count);
-                int oldExp = item.getExperience();
-                int oldBonus = item.getBonusPoints();
-                item.addExperience(comp.getExperience(item.getType().getRank()) * count);
-                item.addBonusPoints(comp.getBonusPoints() * count);
+                int oldExp = itemInstance.getExperience();
+                int oldBonus = itemInstance.getBonusPoints();
+                itemInstance.addExperience(comp.getExperience(itemInstance.getType().getRank()) * count);
+                itemInstance.addBonusPoints(comp.getBonusPoints() * count);
 
-                ComponentSequence optimalRemainderSeq = optimizeExp(components, item, targetExp);
+                ComponentSequence optimalRemainderSeq = optimizeExp(components, itemInstance, targetExp);
                 int exp = optimalRemainderSeq.getExpReached();
                 boolean targetReached = exp >= targetExp;
 
@@ -83,8 +83,8 @@ public class Calculator {
                     currentOptimalSeq = newOptimalSeq;
                 }
 
-                item.setBonusPoints(oldBonus);
-                item.setExperience(oldExp);
+                itemInstance.setBonusPoints(oldBonus);
+                itemInstance.setExperience(oldExp);
                 components.add(comp, count);
             }
         }
