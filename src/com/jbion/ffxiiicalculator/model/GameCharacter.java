@@ -9,4 +9,12 @@ public enum GameCharacter {
     VANILLE,
     FANG;
 
+    public static GameCharacter forName(String name) {
+        try {
+            return GameCharacter.valueOf(name.toUpperCase());
+        } catch (Exception e) {
+            return null;
+        }
+    }
+
 }
