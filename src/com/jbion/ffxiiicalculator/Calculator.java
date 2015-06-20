@@ -90,39 +90,5 @@ public class Calculator {
         }
         return currentOptimalSeq;
     }
-    //    private static ComponentPool optimizeMultiplierPoints(List<ComponentGroup> components, int targetRank,
-    //            int currentPoints, int targetPoints) {
-    //        if (currentPoints >= targetPoints) {
-    //            return new ComponentPool();
-    //        }
-    //
-    //        ComponentPool result = null;
-    //        int currentExp = 0;
-    //        int currentBonusPoints = 0;
-    //        for (ComponentGroup cg : components) {
-    //            if (cg.getCount() == 0) {
-    //                continue;
-    //            }
-    //            cg.decrement();
-    //
-    //            Component type = cg.getType();
-    //            int points = currentPoints + type.getBonusPoints();
-    //            ComponentPool comps = new ComponentPool();
-    //            comps.add(type);
-    //            comps.addAll(optimizeMultiplierPoints(components, targetRank, points, targetPoints));
-    //
-    //            int exp = comps.getExperience(targetRank);
-    //            int bonus = currentPoints + comps.getMultiplierPoints();
-    //
-    //            if (result == null || bonus < currentBonusPoints || (bonus == currentBonusPoints && exp > currentExp)) {
-    //                result = comps;
-    //                currentExp = exp;
-    //                currentBonusPoints = bonus;
-    //            }
-    //
-    //            cg.increment();
-    //        }
-    //
-    //        return result == null ? new ComponentPool() : result;
-    //    }
+
 }
