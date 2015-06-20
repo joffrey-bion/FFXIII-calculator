@@ -15,8 +15,10 @@ public class ItemInstance {
     }
 
     private void computeInitialExperience(int level, int experienceInLevel) {
-        // TODO
-        experience = 0;
+        experience = experienceInLevel;
+        for (int i = 0; i < level - 1; i++) {
+            experience += type.getExpFirstLevel() + type.getExpIncrement() * i;
+        }
     }
 
     public Item getType() {
