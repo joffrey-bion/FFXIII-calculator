@@ -13,17 +13,26 @@ public class Calculator {
 
         int targetRank = itemToUpgrade.getType().getRank();
 
-        ComponentPool componentsToSell = getComponentsToSell(inventory, targetRank);
+        ComponentPool componentsToSell = removeComponentsToSell(inventory, targetRank);
         upgradePlan.setComponentsToSell(componentsToSell);
 
         int targetExp = computeTargetExp(itemToUpgrade);
 
         ComponentSequence sequence = optimizeExp(inventory, itemToUpgrade, targetExp);
+        if (sequence.getExpReached() < targetExp) {
+            int missingExp = targetExp - sequence.getExpReached();
+            getItemsToBuy(missingExp);
+        }
 
         return upgradePlan;
     }
 
-    private static ComponentPool getComponentsToSell(ComponentPool inventory, int targetRank) {
+    private static ComponentPool removeComponentsToSell(ComponentPool inventory, int targetRank) {
+        // TODO Auto-generated method stub
+        return null;
+    }
+
+    private static ComponentPool getItemsToBuy(int experience) {
         // TODO Auto-generated method stub
         return null;
     }
@@ -34,17 +43,19 @@ public class Calculator {
     }
 
     private static ComponentSequence optimizeExp(ComponentPool components, Item item, int targetExp) {
-        if (item.getExperience() >= targetExp) {
-            ComponentSequence emptySeq = new ComponentSequence();
-            emptySeq.setExpReached(item.getExperience());
-            return emptySeq;
+        ComponentSequence currentOptimalSeq = new ComponentSequence();
+        int optimalExp = item.getExperience();
+        currentOptimalSeq.setExpReached(optimalExp);
+        boolean targetReachedByOpt = optimalExp >= targetExp;
+
+        if (targetReachedByOpt) {
+            return currentOptimalSeq;
         }
 
-        ComponentSequence currentOptimalSeq = null;
-        int optimalExp = 0;
-        boolean targetReachedByOpt = false;
-
         for (Component comp : components.distinct()) {
+            if (comp.getType() == Component.Type.CATALYST) {
+                continue; // skip catalysts
+            }
             int availableCount = components.getCount(comp);
             for (int count = availableCount; count > 0; count--) {
                 components.remove(comp, count);
@@ -66,6 +77,7 @@ public class Calculator {
                     ComponentSequence newOptimalSeq = new ComponentSequence();
                     newOptimalSeq.add(comp, count);
                     newOptimalSeq.addAll(optimalRemainderSeq);
+                    newOptimalSeq.setExpReached(exp);
                     optimalExp = exp;
                     targetReachedByOpt = targetReached;
                     currentOptimalSeq = newOptimalSeq;
@@ -74,15 +86,9 @@ public class Calculator {
                 item.setBonusPoints(oldBonus);
                 item.setExperience(oldExp);
                 components.add(comp, count);
-
-                if (comp.isSynthetic() && exp < targetExp) {
-                    break; // skip lower counts if we didn't reach the max
-                }
             }
         }
-
-        currentOptimalSeq.setExpReached(optimalExp);
-        return currentOptimalSeq == null ? new ComponentSequence() : currentOptimalSeq;
+        return currentOptimalSeq;
     }
     //    private static ComponentPool optimizeMultiplierPoints(List<ComponentGroup> components, int targetRank,
     //            int currentPoints, int targetPoints) {
