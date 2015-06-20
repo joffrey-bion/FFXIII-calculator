@@ -1,6 +1,5 @@
 package com.jbion.ffxiiicalculator.model;
 
-
 public class Item {
 
     private final ItemType type;
@@ -8,10 +7,6 @@ public class Item {
     private int experience = 0;
 
     private int bonusPoints = 0;
-
-    //    private Stack<Integer> experienceHistory = new Stack<>();
-    //
-    //    private Stack<Integer> bonusPointsHistory = new Stack<>();
 
     public Item(ItemType type, int level, int experienceInLevel, int bonusPoints) {
         this.type = type;
@@ -55,27 +50,7 @@ public class Item {
         }
     }
 
-    //    public int upgradeWith(Component component, int count) {
-    //        experienceHistory.push(experience);
-    //        int expGain = (int) Math.round(component.getExperience(type.getRank()) * count * getExpMultiplier());
-    //        experience += expGain;
-    //        bonusPointsHistory.push(bonusPoints);
-    //        bonusPoints += component.getBonusPoints() * count;
-    //        if (bonusPoints < 0) {
-    //            bonusPoints = 0;
-    //        }
-    //        return expGain;
-    //    }
-    //
-    //    public void rollbackLastUpgrade() {
-    //        if (bonusPointsHistory.isEmpty()) {
-    //            throw new IllegalStateException("empty history, no last upgrade to cancel");
-    //        }
-    //        bonusPoints = bonusPointsHistory.pop();
-    //        experience = experienceHistory.pop();
-    //    }
-
-    public double getExpMultiplier() {
+    private double getExpMultiplier() {
         if (bonusPoints <= 50) {
             return 1;
         } else if (bonusPoints <= 100) {
