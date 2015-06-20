@@ -12,15 +12,18 @@ public class UpgradableItem extends Item {
 
     private final Component catalyst;
 
+    private final UpgradableItem evolution;
+
     public UpgradableItem(String name, int rank, int sellPrice, Integer buyPrice, Shop shopToBuy,
             Integer chapterAvailability, int expFirstLevel, int expIncrement, int expToMax, int maxLevel,
-            Component catalyst) {
+            Component catalyst, UpgradableItem evolution) {
         super(name, rank, sellPrice, buyPrice, shopToBuy, chapterAvailability);
         this.expFirstLevel = expFirstLevel;
         this.expIncrement = expIncrement;
         this.expToMax = expToMax;
         this.maxLevel = maxLevel;
         this.catalyst = catalyst;
+        this.evolution = evolution;
     }
 
     public int getExpFirstLevel() {

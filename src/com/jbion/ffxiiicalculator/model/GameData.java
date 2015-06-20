@@ -11,10 +11,17 @@ public class GameData {
 
     private final Set<Component> catalysts = new HashSet<>();
 
-    private final Set<ItemInstance> weapons = new HashSet<>();
+    private final Set<Weapon> weapons = new HashSet<>();
 
     public GameData() {
         // TODO add everything
+    }
+
+    private void weapon(String name, int rank, int sellPrice, Integer buyPrice, Shop shopToBuy,
+            Integer chapterAvailability, int expFirstLevel, int expIncrement, int expToMax, int maxLevel,
+            String catalyst, String evolution, String character) {
+        weapons.add(new Weapon(name, rank, sellPrice, buyPrice, shopToBuy, chapterAvailability, expFirstLevel,
+                expIncrement, expToMax, maxLevel, catalyst, evolution, character));
     }
 
     private void add(Component comp) {

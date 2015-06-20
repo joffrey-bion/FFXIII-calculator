@@ -1,6 +1,6 @@
 package com.jbion.ffxiiicalculator.model;
 
-public enum Character {
+public enum GameCharacter {
 
     LIGHTNING,
     SAZH,
