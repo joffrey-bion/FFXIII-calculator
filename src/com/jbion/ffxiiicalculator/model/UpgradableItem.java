@@ -8,14 +8,18 @@ public class UpgradableItem extends Item {
 
     private final int expToMax;
 
+    private final int maxLevel;
+
     private final Component catalyst;
 
     public UpgradableItem(String name, int rank, int sellPrice, Integer buyPrice, Shop shopToBuy,
-            Integer chapterAvailability, int expFirstLevel, int expIncrement, int expToMax, Component catalyst) {
+            Integer chapterAvailability, int expFirstLevel, int expIncrement, int expToMax, int maxLevel,
+            Component catalyst) {
         super(name, rank, sellPrice, buyPrice, shopToBuy, chapterAvailability);
         this.expFirstLevel = expFirstLevel;
         this.expIncrement = expIncrement;
         this.expToMax = expToMax;
+        this.maxLevel = maxLevel;
         this.catalyst = catalyst;
     }
 
@@ -29,6 +33,10 @@ public class UpgradableItem extends Item {
 
     public int getExpToMax() {
         return expToMax;
+    }
+
+    public int getMaxLevel() {
+        return maxLevel;
     }
 
     public Component getCatalyst() {
