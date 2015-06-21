@@ -34,18 +34,16 @@ public class GameData {
         this.catalysts = components.stream().filter(c -> c.getType() == Type.CATALYST).collect(Collectors.toSet());
     }
 
-    private void add(Component comp) {
-        switch (comp.getType()) {
-        case ORGANIC:
-            organicComponents.add(comp);
-            break;
-        case SYNTHETIC:
-            syntheticComponents.add(comp);
-            break;
-        case CATALYST:
-            catalysts.add(comp);
-            break;
-        }
+    public Component findComponent(String name) {
+        return allComponents.stream().filter(c -> c.getName().equalsIgnoreCase(name)).findAny().orElse(null);
+    }
+
+    public Weapon findWeapon(String name) {
+        return weapons.stream().filter(c -> c.getName().equalsIgnoreCase(name)).findAny().orElse(null);
+    }
+
+    public Accessory findAccessory(String name) {
+        return accessories.stream().filter(c -> c.getName().equalsIgnoreCase(name)).findAny().orElse(null);
     }
 
     public Set<Component> getComponents() {

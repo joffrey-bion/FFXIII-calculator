@@ -111,15 +111,15 @@ public class Parser {
     }
 
     private Component findComponent(String name) {
-        return components.stream().filter(c -> c.getName().equals(name)).findAny().orElse(null);
+        return components.stream().filter(c -> c.getName().equalsIgnoreCase(name)).findAny().orElse(null);
     }
 
     private Weapon findWeapon(String name) {
-        return weapons.stream().filter(c -> c.getName().equals(name)).findAny().orElse(null);
+        return weapons.stream().filter(c -> c.getName().equalsIgnoreCase(name)).findAny().orElse(null);
     }
 
     private Accessory findAccessory(String name) {
-        return accessories.stream().filter(c -> c.getName().equals(name)).findAny().orElse(null);
+        return accessories.stream().filter(c -> c.getName().equalsIgnoreCase(name)).findAny().orElse(null);
     }
 
     public void parseFile(String filename, String delimiter, Consumer<String[]> rowParser) {
