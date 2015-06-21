@@ -21,7 +21,7 @@ public class ItemInstance {
         }
     }
 
-    public Item getType() {
+    public UpgradableItem getType() {
         return type;
     }
 

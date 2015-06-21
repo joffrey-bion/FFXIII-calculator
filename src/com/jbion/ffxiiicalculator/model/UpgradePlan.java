@@ -1,15 +1,12 @@
 package com.jbion.ffxiiicalculator.model;
 
-
 public class UpgradePlan {
 
     private ComponentPool componentsToSell;
 
     private ComponentPool componentsToBuy;
 
-    private ComponentSequence organicComponentsToUse;
-
-    private ComponentSequence syntheticComponentsToUse;
+    private ComponentSequence componentsToUse;
 
     public ComponentPool getComponentsToSell() {
         return componentsToSell;
@@ -27,20 +24,26 @@ public class UpgradePlan {
         this.componentsToBuy = componentsToBuy;
     }
 
-    public ComponentSequence getOrganicComponentsToUse() {
-        return organicComponentsToUse;
+    public ComponentSequence getComponentsToUse() {
+        return componentsToUse;
     }
 
-    public void setOrganicComponentsToUse(ComponentSequence organicComponentsToUse) {
-        this.organicComponentsToUse = organicComponentsToUse;
+    public void setComponentsToUse(ComponentSequence componentsToUse) {
+        this.componentsToUse = componentsToUse;
     }
 
-    public ComponentSequence getSyntheticComponentsToUse() {
-        return syntheticComponentsToUse;
-    }
-
-    public void setSyntheticComponentsToUse(ComponentSequence syntheticComponentsToUse) {
-        this.syntheticComponentsToUse = syntheticComponentsToUse;
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        sb.append("STEP 1: Sell the following components:\n\n");
+        sb.append(componentsToSell.toString());
+        sb.append("\n");
+        sb.append("STEP 2: Buy the following components:\n\n");
+        sb.append(componentsToBuy.toString());
+        sb.append("\n");
+        sb.append("STEP 3: Apply the following components in the given order:\n\n");
+        sb.append(componentsToUse.toString());
+        return sb.toString();
     }
 
 }

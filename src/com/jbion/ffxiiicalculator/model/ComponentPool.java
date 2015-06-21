@@ -2,6 +2,7 @@ package com.jbion.ffxiiicalculator.model;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Map.Entry;
 import java.util.Set;
 
 public class ComponentPool {
@@ -29,10 +30,21 @@ public class ComponentPool {
     }
 
     public void remove(Component type, int count) {
+        remove(type, count, false);
+    }
+
+    public void remove(Component type, int count, boolean tolerateExcess) {
         Integer currentCount = components.get(type);
         if (currentCount == null || currentCount == 0) {
+            if (tolerateExcess) {
+                return;
+            }
             throw new IllegalArgumentException(String.format("there is no %s to remove", type.getName()));
         } else if (currentCount < count) {
+            if (tolerateExcess) {
+                components.put(type, 0);
+                return;
+            }
             throw new IllegalArgumentException(String.format("cannot remove %d %ss, only %d are present", count,
                     type.getName(), currentCount));
         }
@@ -48,14 +60,27 @@ public class ComponentPool {
     }
 
     public void removeAll(ComponentPool other) {
-        other.components.entrySet().stream().forEach(e -> remove(e.getKey(), e.getValue()));
+        other.components.entrySet().stream().forEach(e -> remove(e.getKey(), e.getValue(), true));
     }
 
     public void removeAll(ComponentSequence other) {
-        other.getOrderedGroups().stream().forEach(e -> remove(e.getType(), e.getCount()));
+        other.getOrderedGroups().stream().forEach(e -> remove(e.getType(), e.getCount(), true));
     }
 
     public Set<Component> distinct() {
         return components.keySet();
+    }
+
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        for (Entry<Component, Integer> componentGroup : components.entrySet()) {
+            if (componentGroup.getValue() > 0) {
+                sb.append(String.format("% 2dx ", componentGroup.getValue()));
+                sb.append(componentGroup.getKey().getName());
+                sb.append("\n");
+            }
+        }
+        return sb.toString();
     }
 }
