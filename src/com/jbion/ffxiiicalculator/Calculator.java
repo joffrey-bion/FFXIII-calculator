@@ -16,33 +16,34 @@ public class Calculator {
         ComponentPool componentsToSell = removeComponentsToSell(inventory, targetRank);
         upgradePlan.setComponentsToSell(componentsToSell);
 
-        int targetExp = computeTargetExp(itemToUpgrade);
+        int targetExp = itemToUpgrade.getType().getExpToMax();
 
-        ComponentSequence sequence = optimizeExp(inventory, itemToUpgrade, targetExp);
+        ComponentSequence sequence = optimizeExpRec(inventory, itemToUpgrade, targetExp);
+        ComponentPool componentsToBuy = new ComponentPool();
         if (sequence.getExpReached() < targetExp) {
             int missingExp = targetExp - sequence.getExpReached();
-            getItemsToBuy(missingExp);
+            componentsToBuy = getItemsToBuy(missingExp);
+            inventory.addAll(componentsToBuy);
+            sequence = optimizeExpRec(inventory, itemToUpgrade, targetExp);
         }
-
+        upgradePlan.setComponentsToUse(sequence);
+        inventory.removeAll(sequence);
+        componentsToBuy.removeAll(inventory);
+        upgradePlan.setComponentsToBuy(componentsToBuy);
         return upgradePlan;
     }
 
     private static ComponentPool removeComponentsToSell(ComponentPool inventory, int targetRank) {
         // TODO Auto-generated method stub
-        return null;
+        return new ComponentPool();
     }
 
     private static ComponentPool getItemsToBuy(int experience) {
         // TODO Auto-generated method stub
-        return null;
+        return new ComponentPool();
     }
 
-    private static int computeTargetExp(ItemInstance itemToUpgrade) {
-        // TODO Auto-generated method stub
-        return 0;
-    }
-
-    private static ComponentSequence optimizeExp(ComponentPool components, ItemInstance itemInstance, int targetExp) {
+    private static ComponentSequence optimizeExpRec(ComponentPool components, ItemInstance itemInstance, int targetExp) {
         ComponentSequence currentOptimalSeq = new ComponentSequence();
         int optimalExp = itemInstance.getExperience();
         currentOptimalSeq.setExpReached(optimalExp);
@@ -58,13 +59,15 @@ public class Calculator {
             }
             int availableCount = components.getCount(comp);
             for (int count = availableCount; count > 0; count--) {
+                System.out.println(String.format("Trying with % 2d %s", count, comp.getName()));
+
                 components.remove(comp, count);
                 int oldExp = itemInstance.getExperience();
                 int oldBonus = itemInstance.getBonusPoints();
                 itemInstance.addExperience(comp.getExperience(itemInstance.getType().getRank()) * count);
                 itemInstance.addBonusPoints(comp.getBonusPoints() * count);
 
-                ComponentSequence optimalRemainderSeq = optimizeExp(components, itemInstance, targetExp);
+                ComponentSequence optimalRemainderSeq = optimizeExpRec(components, itemInstance, targetExp);
                 int exp = optimalRemainderSeq.getExpReached();
                 boolean targetReached = exp >= targetExp;
 
@@ -74,6 +77,7 @@ public class Calculator {
                         || (!targetReachedByOpt && !targetReached && exp > optimalExp);
 
                 if (newOptimalSeqFound) {
+                    System.out.println("New optimum found!");
                     ComponentSequence newOptimalSeq = new ComponentSequence();
                     newOptimalSeq.add(comp, count);
                     newOptimalSeq.addAll(optimalRemainderSeq);
