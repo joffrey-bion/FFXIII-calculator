@@ -1,0 +1,139 @@
+Component Name;Rank;Sell Price;Buy Price;Where to find/buy;Buyable from chapter;chapter part;Type;Multiplier Points;XP rank 1;XP rank 2;XP rank 3;XP rank 4;XP rank 5;XP rank 6;XP rank 7;XP rank 8;XP rank 9;XP rank 10;XP rank 11
+Abominable Wing;5;75;150;Creature Comforts;10;start;ORGANIC;17;43;38;33;28;24;21;19;16;14;12;9
+Abyssal Scale;5;75;---;Orobon;---;;ORGANIC;16;46;41;36;31;26;23;20;18;15;13;10
+Ancient Bone;8;110;---;Yaksha;---;;ORGANIC;31;74;68;62;55;49;43;37;31;27;24;21
+Armored Shell;6;75;150;Creature Comforts;11;start;ORGANIC;20;52;46;41;36;31;26;23;20;18;15;13
+Barbed Tail;4;40;80;Creature Comforts;8;start;ORGANIC;14;25;22;19;16;14;12;11;9;8;6;4
+Begrimed Claw;1;15;---;Kaiser Behemoth, Behemoth King,Humbaba;---;;ORGANIC;4;8;7;6;5;4;4;3;2;1;1;1
+Bestial Claw;3;40;80;Creature Comforts;8;start;ORGANIC;10;23;20;17;15;13;11;10;8;6;5;3
+Black Mycelium;8;675;---;Treasure Sphere;---;;ORGANIC;51;144;132;120;108;96;84;72;60;54;48;42
+Blue Mycelium;5;190;---;Treasure Sphere;---;;ORGANIC;21;45;40;35;30;25;22;20;17;15;12;10
+Chipped Fang;2;15;---;Gorgonopsid;---;;ORGANIC;7;9;8;7;6;5;4;4;3;2;1;1
+Chocobo Plume;3;20;---;Cactuars, Chocobo, Tonberry,Microchu, Picochu, Repeat Reward;---;;ORGANIC;34;14;12;10;9;8;7;6;5;3;2;2
+Chocobo Tail Feather;5;50;---;Chocobo, Ochu;---;;ORGANIC;58;59;52;46;39;33;29;26;23;19;16;13
+Cie'th Tear;2;15;---;Almost all Cie'th;---;;ORGANIC;10;12;10;9;8;7;6;5;3;2;1;1
+Dawnlight Dew;2;500;---;Chocobo;---;;ORGANIC;31;24;20;18;16;14;12;10;7;5;3;2
+Diabolic Tail;6;75;150;Creature Comforts;11;start;ORGANIC;21;48;43;38;33;28;24;21;19;16;14;12
+Dusklight Dew;3;850;---;Chocobo;---;;ORGANIC;42;56;48;40;36;32;28;24;20;15;11;8
+Enigmatic Fluid;4;40;80;Creature Comforts;5;end;ORGANIC;12;28;25;21;18;16;14;12;10;9;7;5
+Entrancing Tail;8;110;---;Mushussu;---;;ORGANIC;31;74;68;62;55;49;43;37;31;27;24;21
+Esoteric Oil;8;110;---;Alraune, Rafflesia;---;;ORGANIC;29;81;74;68;61;54;47;40;34;30;27;23
+Fiendish Horn;5;75;---;Goblin;---;;ORGANIC;17;43;38;33;28;24;21;19;16;14;12;9
+Fluffy Wool;7;110;---;Sheep;---;;ORGANIC;27;61;56;50;44;39;33;28;25;22;19;16
+Fractured Horn;1;15;---;Goblin;---;;ORGANIC;6;6;5;4;4;3;3;2;1;1;1;1
+Fragrant Oil;4;40;80;Creature Comforts;8;start;ORGANIC;12;28;25;21;18;16;14;12;10;9;7;5
+Gargantuan Claw;5;75;150;Creature Comforts, Behemoth King;11;start;ORGANIC;15;48;43;37;32;27;24;21;18;16;13;10
+Gloomstalk;4;1000;---;Microchu, Picochu;---;;ORGANIC;46;64;56;48;40;36;32;28;24;20;15;12
+Green Needle;7;3500;7000;R&D Depot;11;side quest;ORGANIC;100;110;100;90;80;70;60;50;45;40;35;30
+Gummy Oil;2;15;---;Alraune;---;;ORGANIC;6;10;9;8;7;6;5;4;3;2;1;1
+Hellish Talon;7;110;---;Kaiser Behemoth, Humbaba,Proto-behemoth;---;;ORGANIC;24;77;70;63;56;49;42;35;31;28;24;21
+Ineffable Fluid;8;110;---;Ceratosaur, Ceratoraptor;---;;ORGANIC;29;74;68;62;55;49;43;37;31;27;24;21
+Infernal Horn;7;110;---;Borgbear;---;;ORGANIC;26;68;62;55;49;43;37;31;27;24;21;18
+Iron Shell;4;40;80;Creature Comforts;8;start;ORGANIC;13;27;23;20;17;15;13;11;10;8;6;5
+Malodorous Fruit;3;4000;---;Treasure Sphere;---;;ORGANIC;21;14;12;10;9;8;7;6;5;3;2;2
+Medicinal Oil;6;75;150;Creature Comforts;11;start;ORGANIC;19;58;52;46;40;34;29;26;23;20;17;14
+Menacing Wing;7;110;---;Zirnitra;---;;ORGANIC;26;68;62;55;49;43;37;31;27;24;21;18
+Moistened Scale;1;15;---;Sahagin, Dagonite, Orobon;---;;ORGANIC;5;7;6;5;4;4;3;2;2;1;1;1
+Molted Tail;2;15;---;Triffid;---;;ORGANIC;8;8;7;6;5;4;4;3;2;2;1;1
+Monstrous Fang;6;75;150;Creature Comforts;10;start;ORGANIC;20;52;46;41;36;31;26;23;20;18;15;13
+Moonblossom Seed;3;6000;---;Bandersnatch, Reward, Repeat Reward;---;;ORGANIC;55;147;126;105;94;84;73;63;52;41;31;21
+Murky Ooze;2;15;---;Flan;---;;ORGANIC;8;8;7;6;5;4;4;3;2;2;1;1
+Mysterious Fluid;6;75;150;Creature Comforts;10;start;ORGANIC;21;58;52;46;40;34;24;26;23;20;17;14
+Otherworldly Bone;6;75;150;Creature Comforts;10;start;ORGANIC;21;48;43;38;33;28;24;21;19;16;14;12
+Perfume;10;12500;---;Sanctum Inquisitrix, Sacrifice;---;;ORGANIC;120;280;260;240;220;200;180;160;140;120;100;90
+Red Mycelium;2;85;---;Treasure Sphere;---;;ORGANIC;10;12;10;9;8;7;6;5;3;2;1;1
+Regenerating Carapace;8;110;---;Gurangatch;---;;ORGANIC;30;81;74;68;61;54;47;40;34;30;27;23
+Rough Wool;3;40;---;Sheep;---;;ORGANIC;13;19;16;14;12;11;9;8;7;5;4;2
+Scaled Wing;3;40;80;Creature Comforts;5;end;ORGANIC;12;21;18;15;13;12;10;9;7;5;4;3
+Scraggly Wool;1;15;---;Sheep;---;;ORGANIC;7;5;4;4;3;3;2;1;1;1;1;1
+Seaking's Beard;7;110;---;Dagonite;---;;ORGANIC;25;74;68;61;54;47;40;34;30;27;23;20
+Seapetal Scale;3;40;---;Sahagin;---;;ORGANIC;11;22;19;16;14;12;11;9;8;6;4;3
+Segmented Carapace;2;15;---;Navidon;---;;ORGANIC;7;9;8;7;6;5;4;4;3;2;1;1
+Severed Wing;1;15;---;Amphisbaena;---;;ORGANIC;6;6;5;4;4;3;3;2;1;1;1;1
+Shattered Bone;2;15;---;Yaksha;---;;ORGANIC;8;8;7;6;5;4;4;3;2;2;1;1
+Sinister Fang;8;110;---;Uridimmu;---;;ORGANIC;30;81;74;68;61;54;40;40;34;30;27;23
+Smooth Hide;5;75;150;Creature Comforts;10;start;ORGANIC;16;46;41;36;31;26;23;20;18;15;13;10
+Spined Horn;3;40;---;Munchkin;---;;ORGANIC;12;21;18;15;13;12;10;9;7;5;4;3
+Starblossom Seed;6;13000;---;Bandersnatch;---;;ORGANIC;91;480;414;368;322;276;230;207;184;161;138;115
+Strange Fluid;2;15;---;Ceratosaur;---;;ORGANIC;6;10;9;8;7;6;5;4;3;2;1;1
+Sturdy Bone;4;40;80;Creature Comforts;5;end;ORGANIC;14;25;22;19;16;14;12;11;9;8;6;4
+Succulent Fruit;6;1750;---;Treasure Sphere;---;;ORGANIC;55;20;18;16;14;12;10;9;8;7;6;5
+Sunpetal;8;1000;---;Ochu;---;;ORGANIC;21;175;160;146;131;116;102;87;73;65;58;51
+Supple Leather;7;110;---;Adroa, Verdelet;---;;ORGANIC;25;74;68;61;54;47;40;34;30;27;23;20
+Tear of Frustration;4;40;---;Pijavica;---;;ORGANIC;14;25;22;19;16;14;12;11;9;8;6;4
+Tear of Remorse;6;75;---;Seeker, Vetala, Taxim, Nelapsi;---;;ORGANIC;24;48;43;38;33;28;24;21;19;16;14;12
+Tear of Woe;8;110;---;Vampire, Varcolaci, Wladislaus;---;;ORGANIC;40;84;77;70;63;56;49;42;35;31;28;24
+Thick Wool;5;75;---;Sheep;---;;ORGANIC;18;39;35;30;26;22;19;17;15;13;11;8
+Thickened Hide;3;40;80;Creature Comforts;5;end;ORGANIC;11;22;19;16;14;12;11;9;8;6;4;3
+Torn Leather;1;15;---;Adroa;---;;ORGANIC;5;7;6;5;4;4;3;2;2;1;1;1
+Transparent Ooze;6;75;150;Creature Comforts;11;start;ORGANIC;21;48;43;38;33;28;24;21;19;16;14;12
+Vibrant Ooze;4;40;80;Creature Comforts;8;start;ORGANIC;14;25;22;19;16;14;12;11;9;8;6;4
+White Mycelium;7;360;---;Treasure Sphere;---;;ORGANIC;34;88;80;72;64;56;48;40;36;32;28;24
+Wicked Fang;4;40;80;Creature Comforts;5;end;ORGANIC;13;27;23;20;17;15;13;11;10;8;6;5
+Wonder Gel;8;110;---;Ectopudding, Rust Pudding,Ferruginous Pudding;---;;ORGANIC;31;84;77;70;63;56;49;42;35;31;28;24
+Active Detector;8;750;---;Pulsework Centurion;---;;SYNTHETIC;-82;998;915;832;748;665;582;499;416;374;332;291
+Actuator;6;420;---;Dismantle Edged Carbine;---;;SYNTHETIC;-46;440;396;352;308;264;220;198;176;154;132;110
+Amplifier;4;260;520;Lenora's Garage;11;middle;SYNTHETIC;-28;217;190;163;136;122;108;95;81;68;54;40
+Analog Circuit;2;90;---;Hoplite;---;;SYNTHETIC;-9;81;68;61;54;47;40;34;27;20;13;6
+Bomb Ashes;2;90;---;Cryohedron;---;;SYNTHETIC;-8;74;62;55;49;43;37;31;24;18;12;6
+Bomb Core;8;600;---;Cryohedron, Repeat Reward;---;;SYNTHETIC;-78;945;866;788;709;630;551;472;394;354;315;275
+Bomb Fragment;4;215;430;Lenora's Garage;7;start;SYNTHETIC;-27;164;144;123;103;92;82;72;61;51;41;30
+Bomb Shell;6;420;---;Circuitron, Repeat Reward;---;;SYNTHETIC;-53;412;370;329;288;247;206;185;164;144;123;103
+Butterfly Valve;6;420;---;Ambling Bellows;---;;SYNTHETIC;-50;464;417;371;324;278;232;208;185;162;139;116
+Cactuar Doll;10;12000;---;Cactuar, Cactuar Prime, Giant Cactuar, Gigantuar;;;SYNTHETIC;-1;2;2;2;2;2;1;1;1;1;1;1
+Carburetor;6;420;---;Immortal;---;;SYNTHETIC;-55;548;493;438;383;328;274;246;219;191;164;137
+Ceramic Armor;5;330;660;Lenora's Garage;7;start;SYNTHETIC;-35;295;262;229;196;164;147;131;114;98;82;65
+Chobham Armor;7;500;---;Bulwarker;---;;SYNTHETIC;-54;844;768;691;614;537;460;384;345;307;268;230
+Crankshaft;6;420;840;Lenora's Garage;9;start;SYNTHETIC;-47;430;387;344;301;258;215;193;172;150;129;107
+Credit Chip;2;500;---;;;;SYNTHETIC;-1;1;1;1;1;1;1;1;1;1;1;1
+Crystal Oscillator;8;1000;---;Megrim Thresher, Repeat Reward;---;;SYNTHETIC;-79;1449;1328;1208;1087;966;845;724;604;543;483;422
+Digital Circuit;4;230;---;Aquila Velocycle;---;;SYNTHETIC;-21;179;156;134;112;100;89;78;67;56;44;33
+Electrode;7;500;---;Vernal Harvester, Repeat Reward;---;;SYNTHETIC;-56;796;724;651;579;506;434;362;325;289;253;217
+Electrolytic Capacitor;3;160;---;Bulwarker;---;;SYNTHETIC;-20;137;117;98;88;78;68;58;49;39;29;19
+Epicyclic Gear;3;160;320;Lenora's Garage;9;start;SYNTHETIC;-20;133;114;95;85;76;66;57;47;37;28;18
+Ferroelectric Film;4;230;460;Lenora's Garage;4;middle;SYNTHETIC;-37;204;179;153;128;115;102;89;76;64;51;38
+Fiber-optic Cable;6;420;840;Lenora's Garage;11;middle;SYNTHETIC;-49;432;388;345;302;259;216;194;172;151;129;108
+Flywheel;6;420;---;Treasure Sphere;---;;SYNTHETIC;-48;408;367;326;285;244;204;183;163;142;122;102
+Gyroscope;5;330;---;Megrim Thresher;---;;SYNTHETIC;-34;298;265;232;199;166;149;132;116;99;83;66
+Incentive Chip;5;2500;---;;;;SYNTHETIC;-1;1;1;1;1;1;1;1;1;1;1;1
+Insulated Cabling;3;140;280;Lenora's Garage;4;middle;SYNTHETIC;-18;131;112;94;84;75;65;56;47;37;28;18
+Iridium Plug;6;420;---;Treasure Sphere;---;;SYNTHETIC;-48;204;183;163;142;122;102;91;81;71;61;51
+Liquid Crystal Lens;3;160;320;Lenora's Garage;9;start;SYNTHETIC;-19;140;120;100;90;80;70;60;50;39;29;19
+Mobius Coil;8;800;---;Vernal Harvester, Repeat Reward;---;;SYNTHETIC;-81;1075;985;896;806;716;627;537;448;403;358;313
+Moogle Puppet;10;18000;---;;;;SYNTHETIC;-1;2;2;2;2;2;1;1;1;1;1;1
+Needle Valve;3;160;---;Boxed Phalanx;---;;SYNTHETIC;-21;140;120;100;90;80;70;60;50;39;29;19
+Paraffin Oil;3;160;320;Lenora's Garage;4;middle;SYNTHETIC;-20;134;115;96;86;76;67;57;48;38;28;19
+Particle Accelerator;7;5000;10000;R&D Depot, Juggernaut,The Proudclad, Reward;11;side quest;SYNTHETIC;-87;8800;8000;7200;6400;5600;4800;4000;3600;3200;2800;2400
+Passive Detector;6;420;840;Lenora's Garage;7;start;SYNTHETIC;-54;376;338;300;263;225;188;169;150;131;112;94
+Perfect Conductor;8;800;1600;Viking, Lenora's Garage, Reward;11;middle;SYNTHETIC;-83;1288;1181;1074;966;859;751;644;537;483;429;375
+Piezoelectric Element;6;420;840;Lenora's Garage, Repeat Reward;11;middle;SYNTHETIC;-50;620;558;496;434;372;310;279;248;217;186;155
+Plush Chocobo;10;35000;---;;;;SYNTHETIC;-1;2;2;2;2;2;1;1;1;1;1;1
+Polymer Emulsion;2;100;200;Lenora's Garage;4;middle;SYNTHETIC;-18;96;80;72;64;56;48;40;31;23;15;7
+Radial Bearing;3;160;320;Lenora's Garage;11;middle;SYNTHETIC;-20;128;110;92;82;73;64;55;46;36;27;18
+Ring Joint;6;420;840;Lenora's Garage;9;start;SYNTHETIC;-50;416;374;332;291;249;208;187;166;145;124;104
+Silicone Oil;5;330;660;Lenora's Garage;11;middle;SYNTHETIC;-32;304;270;236;202;169;152;135;118;101;84;67
+Solenoid;6;420;---;Hoplite;---;;SYNTHETIC;-47;440;396;352;308;264;220;198;176;154;132;110
+Spark Plug;3;140;---;Pulsework Gladiator;---;;SYNTHETIC;-18;124;106;89;80;71;62;53;44;35;26;17
+Sprocket;3;160;---;Treasure Sphere;---;;SYNTHETIC;-21;142;122;102;91;81;71;61;51;40;30;20
+Supercharger;8;800;---;Treasure Sphere;---;;SYNTHETIC;-82;1327;1216;1106;995;884;774;663;553;497;442;387
+Superconductor;6;420;840;Lenora's Garage, Reward;11;middle;SYNTHETIC;-59;800;720;640;560;480;400;360;320;280;240;200
+Synthetic Muscle;6;420;---;Treasure Sphere;---;;SYNTHETIC;-49;444;399;355;310;266;222;199;177;155;133;111
+Tesla Turbine;8;900;---;Anavatapta Warmech;---;;SYNTHETIC;-79;1411;1293;1176;1058;940;823;705;588;529;470;411
+Thrust Bearing;6;420;---;Pulsework Gladiator;---;;SYNTHETIC;-48;400;360;320;280;240;200;180;160;140;120;100
+Titanium Tube;8;750;---;Treasure Sphere;---;;SYNTHETIC;-84;969;888;808;727;646;565;484;404;363;323;282
+Tomberry Figurine;10;28500;---;;;;SYNTHETIC;-1;2;2;2;2;2;1;1;1;1;1;1
+Transformer;2;90;---;Tyrant;---;;SYNTHETIC;-9;84;70;63;56;49;42;35;27;20;13;6
+Tungsten Tube;6;480;---;Juggernaut;---;;SYNTHETIC;-53;384;345;307;268;230;192;172;153;134;115;96
+Turbojet;6;420;840;Lenora's Garage;7;start;SYNTHETIC;-46;424;381;339;296;254;212;190;169;148;127;106
+Turboprop;8;800;---;Treasure Sphere;---;;SYNTHETIC;-85;1317;1207;1098;988;878;768;658;549;494;439;384
+Ultracompact Reactor;11;25000;50000;R&D Depot, Bhakti;11;side quest;SYNTHETIC;-100;60000;56000;52000;48000;44000;40000;36000;32000;28000;24000;20000
+Millerite;2;1 000;3 000; The Motherlode;8;middle;CATALYST;0;0;0;0;0;0;0;0;0;0;0;0
+Rhodochrosite;3;2 000;8 000; The Motherlode;8;middle;CATALYST;0;0;0;0;0;0;0;0;0;0;0;0
+Cobaltite;4;3 000;17 000; The Motherlode;8;middle;CATALYST;0;0;0;0;0;0;0;0;0;0;0;0
+Perovskite;5;4 000;30 000; The Motherlode;9;start;CATALYST;0;0;0;0;0;0;0;0;0;0;0;0
+Uraninite;6;5 000;45 000; The Motherlode;9;start;CATALYST;0;0;0;0;0;0;0;0;0;0;0;0
+Mnar Stone;7;6 000;60 000; The Motherlode;10;start;CATALYST;0;0;0;0;0;0;0;0;0;0;0;0
+Scarletite;8;7 000;100 000; The Motherlode;11;start;CATALYST;0;0;0;0;0;0;0;0;0;0;0;0
+Adamantite;9;8 000;220 000; R&D Depot;11;side quest;CATALYST;0;0;0;0;0;0;0;0;0;0;0;0
+Dark Matter;10;9 000;840 000; R&D Depot;11;side quest;CATALYST;0;0;0;0;0;0;0;0;0;0;0;0
+Trapezohedron;11;10 000;2 000 000; R&D Depot;11;side quest;CATALYST;0;0;0;0;0;0;0;0;0;0;0;0

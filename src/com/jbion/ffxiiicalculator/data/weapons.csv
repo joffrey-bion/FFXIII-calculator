@@ -1,0 +1,145 @@
+Name;Rank;Sell Price;Buy Price;Shop;Chapter;1st level exp;Increment exp;Master EXP;Max Level;Catalyst;Upgraded To;Upgraded Item start level;Synthesizes;Ability;Min Strength;Max Strength;Min Magic;Max Magic;Character
+Blazefire Saber;3;1000;2000;Up In Arms;1;300;57;24600;26;Perovskite;Flamberge;10;Physical Wall;-;15;115;15;115;Lightning
+Flamberge;5;6196;-;-;7;1500;215;470550;61;Trapezohedron;Omega Weapon;47;Physical Wall;-;68;323;68;323;Lightning
+Omega Weapon;11;84100;-;-;11;3300;297;1767447;100;-;-;;-;-;302;620;302;620;Lightning
+Axis Blade;5;7500;15000;Plautus's Workshop;7;1200;225;66750;21;Adamantite;Enkindler;13;ATB Rate;Attack: ATB Charge;8;48;8;48;Lightning
+Enkindler;9;27468;-;-;11;3600;261;347580;41;Trapezohedron;Omega Weapon;39;ATB Rate;Attack: ATB Charge II;49;133;49;133;Lightning
+Omega Weapon;11;93025;-;-;11;3300;297;1767447;100;-;-;;-;Attack: ATB Charge II;132;315;132;315;Lightning
+Edged Carbine;3;2300;4600;Up In Arms;5;420;75;33000;26;Perovskite;Razor Carbine;13;Magic Wall;-;8;83;20;170;Lightning
+Razor Carbine;5;12128;-;-;7;1500;215;470550;61;Trapezohedron;Omega Weapon;47;Magic Wall;-;46;190;112;448;Lightning
+Omega Weapon;11;100700;-;-;11;3300;297;1767447;100;-;-;;-;-;104;210;352;723;Lightning
+Lifesaber;5;10000;20000;Plautus's Workshop;9;1500;215;70850;21;Scarletite;Peacemaker;16;Low HP: Power Surge;Improved Raise;8;88;8;88;Lightning
+Peacemaker;8;33875;-;-;9;3000;240;307200;41;Trapezohedron;Omega Weapon;37;Low HP: Power Surge;Improved Raise II;100;225;100;225;Lightning
+Omega Weapon;11;101300;-;-;11;3300;297;1767447;100;-;-;;-;Improved Raise II;205;520;205;520;Lightning
+Gladius;4;3550;7100;Up In Arms;2;800;116;54800;26;Uraninite;Helter-skelter;19;Physical Wall;-;25;175;13;88;Lightning
+Helter-skelter;6;20518;-;-;7;1500;168;387360;61;Trapezohedron;Omega Weapon;42;Physical Wall;-;154;448;64;190;Lightning
+Omega Weapon;11;108990;-;-;11;3300;297;1767447;100;-;-;;-;-;317;723;94;210;Lightning
+Organyx;2;14000;280000;Gilgamesh, inc.;11;300;42;20100;26;Cobaltite;Apocalypse;14;Vampiric Strike;Leadenstrike;37;187;37;187;Lightning
+Apocalypse;4;38428;-;-;11;800;116;253320;61;Trapezohedron;Omega Weapon;33;Vampiric Strike;Ironstrike;128;410;128;410;Lightning
+Omega Weapon;11;113300;-;-;11;3300;297;1767447;100;-;-;;-;Ironstrike;281;750;281;750;Lightning
+Hauteclaire;4;10000;20000;Gilgamesh, inc.;11;800;116;54800;26;Uraninite;Durandal;19;Random: Instant Chain;Stagger Lock;13;138;13;138;Lightning
+Durandal;6;32318;-;-;11;1500;168;387360;61;Trapezohedron;Omega Weapon;42;Random: Instant Chain;Stagger Lock;126;378;126;378;Lightning
+Omega Weapon;11;109050;-;-;11;3300;297;1767447;100;-;-;;-;Stagger Lock;305;711;305;711;Lightning
+Lionheart;6;14000;28000;Plautus's Workshop;12;1500;174;63060;21;Scarletite;Ultima Weapon;15;Random: Instant Chain;Quick Stagger;8;68;8;68;Lightning
+Ultima Weapon;8;43750;-;-;12;2600;232;284960;41;Trapezohedron;Omega Weapon;35;Random: Instant Chain;Quick Stagger;83;213;83;213;Lightning
+Omega Weapon;11;116400;-;-;12;3300;297;1767447;100;-;-;;-;Quick Stagger;183;508;183;508;Lightning
+Vega 42s;3;1000;2000;Up In Arms;1;300;57;24600;26;Perovskite;Altairs;10;Magic Wall;-;12;137;14;139;Sazh
+Altairs;5;6196;-;-;7;1500;215;470550;61;Trapezohedron;Total Eclipses;45;Magic Wall;-;74;380;84;390;Sazh
+Total Eclipses;11;81000;-;-;11;2640;363;2022273;100;-;-;;-;-;372;812;382;822;Sazh
+Spica Defenders;5;7250;14500;Plautus's Workshop;8;1200;225;66750;21;Scarletite;Sirius Sidearms;16;Buff Duration;Augment Maintenance;6;46;15;95;Sazh
+Sirius Sidearms;8;26725;-;-;9;2600;232;284960;41;Trapezohedron;Total Eclipses;34;Buff Duration;Augment Maintenance II;65;140;95;220;Sazh
+Total Eclipses;11;84137;-;-;11;2640;363;2022273;100;-;-;;-;Augment Maintenance II;251;713;317;911;Sazh
+Deneb Duellers;3;1950;3900;Up In Arms;3;420;75;33000;26;Perovskite;Canopus AMPs;13;Magic Wall;-;8;108;24;249;Sazh
+Canopus AMPs;5;10728;-;-;7;1500;215;470550;61;Trapezohedron;Total Eclipses;45;Magic Wall;-;86;374;156;636;Sazh
+Total Eclipses;11;93160;-;-;11;2640;363;2022273;100;-;-;;-;-;278;608;520;1125;Sazh
+Rigels;4;9500;19000;Gilgamesh, inc.;10;800;116;54800;26;Uraninite;Polaris Specials;19;Random: Instant Chain;Stagger Lock;10;160;15;165;Sazh
+Polaris Specials;6;31018;-;-;10;1500;168;387360;61;Trapezohedron;Total Eclipses;40;Random: Instant Chain;Stagger Lock;160;496;168;504;Sazh
+Total Eclipses;11;103675;-;-;11;2640;363;2022273;100;-;-;;-;Stagger Lock;406;1006;414;1014;Sazh
+Aldebarans;2;13150;263000;Gilgamesh, inc.;11;300;42;20100;26;Cobaltite;Sadalmeliks;14;Vampiric Strike;Leadenstrike;0;0;40;265;Sazh
+Sadalmeliks;4;36218;-;-;11;800;116;253320;61;Trapezohedron;Total Eclipses;32;Vampiric Strike;Ironstrike;0;0;190;660;Sazh
+Total Eclipses;11;107882;-;-;11;2640;363;2022273;100;-;-;;-;Ironstrike;0;0;402;1150;Sazh
+Pleiades Hi-Powers;3;11000;22000;Gilgamesh, inc.;11;420;75;33000;26;Perovskite;Hyades Magnums;13;Damage Wall;Paper Tiger;40;340;0;0;Sazh
+Hyades Magnums;5;31528;-;-;11;1500;215;470550;61;Trapezohedron;Total Eclipses;45;Damage Wall;Silk Tiger;276;1140;0;0;Sazh
+Total Eclipses;11;118250;-;-;11;2640;363;2022273;100;-;-;;-;Silk Tiger;545;1150;0;0;Sazh
+Antares Deluxes;4;11000;22000;Plautus's Workshop;12;800;116;38040;21;Uraninite;Fomalhaut Elites;15;ATB Rate;Chain Bonus Boost;12;92;18;98;Sazh
+Fomalhaut Elites;6;32730;-;-;12;1500;168;191040;41;Trapezohedron;Total Eclipses;27;ATB Rate;Chain Bonus Boost II;86;216;92;222;Sazh
+Total Eclipses;11;90350;-;-;12;2640;363;2022273;100;-;-;;-;Chain Bonus Boost II;172;610;178;616;Sazh
+Procyons;6;15000;30000;Plautus's Workshop;6;1500;174;63060;21;Dark Matter;Betelgeuse Customs;15;Random: Instant Chain;Stagger Maintenance;14;94;9;49;Sazh
+Betelgeuse Customs;10;50480;-;-;11;2600;260;306800;41;Trapezohedron;Total Eclipses;35;Random: Instant Chain;Stagger Maintenance II;104;260;60;138;Sazh
+Total Eclipses;11;120950;-;-;11;2640;363;2022273;100;-;-;;-;Stagger Maintenance II;230;620;154;414;Sazh
+Wild Bear;3;900;1800;Up In Arms;1;300;57;24600;26;Perovskite;Feral Pride;10;Physical Wall;-;15;140;15;140;Snow
+Feral Pride;5;5796;-;-;7;1500;215;470550;61;Trapezohedron;Save the Queen;48;Physical Wall;-;77;383;77;383;Snow
+Save the Queen;11;84370;-;-;11;3333;286;1717353;100;-;-;;-;-;353;717;353;717;Snow
+Paladin;5;10000;20000;Plautus's Workshop;7;1200;225;66750;21;Scarletite;Winged Saint;16;High HP: Power Surge;Improved Guard;8;88;8;88;Snow
+Winged Saint;8;33875;-;-;9;2600;232;284960;41;Trapezohedron;Save the Queen;35;High HP: Power Surge;Improved Guard II;88;213;88;213;Snow
+Save the Queen;11;98200;-;-;11;3333;286;1717353;100;-;-;;-;Improved Guard II;185;510;185;510;Snow
+Rebel Heart;4;5500;11000;Plautus's Workshop;12;800;116;38040;21;Uraninite;Warrior's Emblem;15;Low HP: Power Surge;Critical: Power Surge;5;65;10;70;Snow
+Warrior's Emblem;6;18430;-;-;12;1500;168;191040;41;Trapezohedron;Save the Queen;28;Low HP: Power Surge;Critical: Power Surge II;92;248;101;257;Snow
+Save the Queen;11;66875;-;-;12;3333;286;1717353;100;-;-;;-;Critical: Power Surge II;170;602;179;611;Snow
+Power Circle;6;2250;4500;Up In Arms;1;1500;174;89700;26;Scarletite;Battle Standard;20;Physical Wall;-;23;198;13;38;Snow
+Battle Standard;8;20875;-;-;9;2600;232;566640;61;Trapezohedron;Save the Queen;53;Physical Wall;-;185;513;43;125;Snow
+Save the Queen;11;109400;-;-;11;3333;286;1717353;100;-;-;;-;-;502;925;108;202;Snow
+Feymark;4;12500;25000;Gilgamesh, inc.;10;800;116;38040;21;Uraninite;Soul Blazer;15;Magic Damper;Enfeeblement;0;0;30;130;Snow
+Soul Blazer;6;36630;-;-;10;1500;168;191040;41;Trapezohedron;Save the Queen;28;Magic Damper;Hindrance;0;0;144;300;Snow
+Save the Queen;11;98725;-;-;11;3333;286;1717353;100;-;-;;-;Hindrance;0;0;330;1050;Snow
+Sacrificial Circle;6;10500;210000;Gilgamesh, inc.;11;1500;174;89700;26;Scarletite;Indomitus;20;Damage Wall;Paper Tiger;41;266;41;266;Snow
+Indomitus;8;39175;-;-;11;2600;232;566640;61;Trapezohedron;Save the Queen;53;Damage Wall;Silk Tiger;196;565;196;565;Snow
+Save the Queen;11;128375;-;-;11;3333;286;1717353;100;-;-;;-;Silk Tiger;550;1020;550;1020;Snow
+Unsetting Sun;3;10500;21000;Gilgamesh, inc.;11;420;75;33000;26;Perovskite;Midnight Sun;13;Random: Instant Chain;Stagger Lock;18;168;3;53;Snow
+Midnight Sun;5;30228;-;-;11;1500;215;470550;61;Trapezohedron;Save the Queen;48;Random: Instant Chain;Stagger Lock;119;503;30;126;Snow
+Save the Queen;11;120625;-;-;11;3333;286;1717353;100;-;-;;-;Stagger Lock;399;815;101;205;Snow
+Umbra;5;16300;32600;Plautus's Workshop;9;1200;225;66750;21;Adamantite;Solaris;13;Magic Wall;Improved Ward;13;73;20;120;Snow
+Solaris;9;50348;-;-;11;3600;261;347580;41;Trapezohedron;Save the Queen;40;Magic Wall;Improved Ward II;63;175;97;265;Snow
+Save the Queen;11;134615;-;-;11;3333;286;1717353;100;-;-;;-;Improved Ward II;170;410;260;620;Snow
+Airwing;4;5000;10000;Plautus's Workshop;1;400;76;22440;21;Uraninite;Skycutter;10;Low HP: Power Surge;Critical: Shield;18;98;12;72;Hope
+Skycutter;6;15655;-;-;7;1500;168;191040;41;Trapezohedron;Nue;28;Low HP: Power Surge;Critical: Shield II;76;231;81;205;Hope
+Nue;11;70010;-;-;11;3850;242;1555092;100;-;-;;-;Critical: Shield II;166;526;153;441;Hope
+Hawkeye;3;2200;4400;Up In Arms;5;420;75;33000;26;Perovskite;Eagletalon;13;Magic Wall;-;2;27;18;193;Hope
+Eagletalon;5;11728;-;-;7;1500;215;470550;61;Trapezohedron;Nue;49;Magic Wall;-;28;124;122;506;Hope
+Nue;11;97150;-;-;11;3850;242;1555092;100;-;-;;-;-;100;202;458;917;Hope
+Otshirvani;5;14100;28200;Plautus's Workshop;12;1200;225;66750;21;Scarletite;Urubutsin;16;ATB Rate;Siphon Boost;6;66;14;114;Hope
+Urubutsin;8;44535;-;-;12;2600;232;284960;41;Trapezohedron;Nue;36;ATB Rate;Siphon Boost II;78;178;110;260;Hope
+Nue;11;118405;-;-;12;3850;242;1555092;100;-;-;;-;Siphon Boost II;193;513;265;713;Hope
+Ninurta;3;1400;2800;Up In Arms;4;420;75;33000;26;Perovskite;Jatayu;13;Physical Wall;-;12;137;12;137;Hope
+Jatayu;5;8528;-;-;7;1500;215;470550;61;Trapezohedron;Nue;49;Physical Wall;-;90;378;90;378;Hope
+Nue;11;92320;-;-;11;3850;242;1555092;100;-;-;;-;-;306;612;306;612;Hope
+Vidofnir;5;8450;16900;Plautus's Workshop;7;1200;225;66750;21;Scarletite;Hresvelgr;16;Buff Duration;Defense Maintenance;6;46;14;134;Hope
+Hresvelgr;8;29845;-;-;9;2600;232;284960;41;Trapezohedron;Nue;36;Buff Duration;Defense Maintenance II;53;128;125;300;Hope
+Nue;11;92697;-;-;11;3850;242;1555092;100;-;-;;-;Defense Maintenance II;113;305;265;713;Hope
+Simurgh;4;10600;21200;Gilgamesh, inc.;11;800;116;38040;21;Uraninite;Tezcatlipoca;15;Ethereal Mantle;Stifled Magic;28;168;0;0;Hope
+Tezcatlipoca;6;31690;-;-;11;1500;168;191040;41;Trapezohedron;Nue;28;Ethereal Mantle;Fettered Magic;161;395;0;0;Hope
+Nue;11;90080;-;-;11;3850;242;1555092;100;-;-;;-;Fettered Magic;278;926;0;0;Hope
+Malphas;3;9900;198000;Gilgamesh, inc.;11;420;75;33000;26;Perovskite;Naberius;13;Damage Wall;Paper Tiger;30;205;30;205;Hope
+Naberius;5;28668;-;-;11;1500;215;470550;61;Trapezohedron;Nue;49;Damage Wall;Silk Tiger;136;520;136;520;Hope
+Nue;11;119445;-;-;11;3850;242;1555092;100;-;-;;-;Silk Tiger;472;931;424;832;Hope
+Alicanto;4;9000;18000;Gilgamesh, inc.;10;800;116;54800;26;Uraninite;Caladrius;19;Random: Instant Chain;Stagger Lock;10;110;10;110;Hope
+Caladrius;6;29718;-;-;10;1500;168;387360;61;Trapezohedron;Nue;44;Random: Instant Chain;Stagger Lock;122;374;122;374;Hope
+Nue;11;107600;-;-;11;3850;242;1555092;100;-;-;;-;Stagger Lock;272;608;272;608;Hope
+Binding Rod;3;1250;2500;Up In Arms;1;300;57;24600;26;Perovskite;Hunter's Rod;10;Physical Wall;-;18;168;12;37;Vanille
+Hunter's Rod;5;7196;-;-;7;1500;215;470550;61;Trapezohedron;Nirvana;45;Physical Wall;-;85;442;36;138;Vanille
+Nirvana;11;84200;-;-;11;3740;308;1864368;100;-;-;;-;-;330;715;106;216;Vanille
+Tigerclaw;2;15000;300000;Gilgamesh, inc.;11;300;42;20100;26;Cobaltite;Wyrmfang;14;Vampiric Strike;Leadenstrike;23;198;23;198;Vanille
+Wyrmfang;4;41028;-;-;11;800;116;253320;61;Trapezohedron;Nirvana;31;Vampiric Strike;Ironstrike;140;516;140;516;Vanille
+Nirvana;11;114750;-;-;11;3740;308;1864368;100;-;-;;-;Ironstrike;276;828;276;828;Vanille
+Healer's Staff;5;9900;19800;Plautus's Workshop;8;2000;125;63750;21;Adamantite;Physician's Staff;16;High HP: Power Surge;Improved Cure;8;48;8;48;Vanille
+Physician's Staff;9;35700;-;-;11;2115;252;281160;41;Trapezohedron;Nirvana;33;High HP: Power Surge;Improved Cure II;80;180;80;180;Vanille
+Nirvana;11;94645;-;-;11;3740;308;1864368;100;-;-;;-;Improved Cure II;156;424;156;424;Vanille
+Pearlwing Staff;3;1150;2300;Up In Arms;3;420;75;33000;26;Perovskite;Brightwing Staff;13;Magic Wall;-;2;27;15;140;Vanille
+Brightwing Staff;5;7528;-;-;7;1500;215;470550;61;Trapezohedron;Nirvana;45;Magic Wall;-;27;123;93;381;Vanille
+Nirvana;11;82920;-;-;11;3740;308;1864368;100;-;-;;-;-;91;201;417;912;Vanille
+Rod of Thorns;3;1500;3000;Up In Arms;11;420;75;33000;26;Perovskite;Orochi Rod;13;Magic Wall;-;6;131;6;131;Vanille
+Orochi Rod;5;8928;-;-;11;1500;215;470550;61;Trapezohedron;Nirvana;45;Magic Wall;-;100;436;100;436;Vanille
+Nirvana;11;87400;-;-;11;3740;308;1864368;100;-;-;;-;-;324;709;324;709;Vanille
+Mistilteinn;5;5500;11000;Plautus's Workshop;12;1200;225;66750;21;Scarletite;Erinye's Cane;16;Low HP: Power Surge;Ally KO: Power Surge;5;65;11;131;Vanille
+Erinye's Cane;8;22175;-;-;12;2600;232;284960;41;Trapezohedron;Nirvana;33;Low HP: Power Surge;Ally KO: Power Surge II;67;167;135;335;Vanille
+Nirvana;11;74625;-;-;12;3740;308;1864368;100;-;-;;-;Ally KO: Power Surge II;135;403;271;807;Vanille
+Belladonna Wand;4;15600;31200;Plautus's Workshop;6;800;116;38040;21;Uraninite;Malboro Wand;15;Buff Duration;Improved Debuffing;5;65;11;131;Vanille
+Malboro Wand;6;44690;-;-;7;1500;168;191040;41;Trapezohedron;Nirvana;26;Buff Duration;Improved Debuffing II;63;167;127;335;Vanille
+Nirvana;11;109730;-;-;11;3740;308;1864368;100;-;-;;-;Improved Debuffing II;107;403;215;807;Vanille
+Heavenly Axis;4;12000;24000;Gilgamesh, inc.;11;800;116;54800;26;Uraninite;Abraxas;19;Random: Instant Chain;Stagger Lock;5;80;11;161;Vanille
+Abraxas;6;37518;-;-;11;1500;168;387360;61;Trapezohedron;Nirvana;40;Random: Instant Chain;Stagger Lock;79;247;159;495;Vanille
+Nirvana;11;115050;-;-;11;3740;308;1864368;100;-;-;;-;Stagger Lock;163;403;327;807;Vanille
+Bladed Lance;3;2250;4500;Up In Arms;7;300;57;24600;26;Perovskite;Glaive;10;Physical Wall;-;55;130;35;85;Fang
+Glaive;5;11196;-;-;7;1500;215;470550;61;Trapezohedron;Kain's Lance;46;Physical Wall;-;96;300;35;137;Fang
+Kain's Lance;11;98550;-;-;11;4400;275;1769625;100;-;-;;-;-;375;753;152;314;Fang
+Dragoon Lance;4;11500;230000;Gilgamesh, inc.;11;800;116;38040;21;Uraninite;Dragonhorn;14;Ethereal Mantle;Stifled Magic;39;179;0;0;Fang
+Dragonhorn;6;33735;-;-;11;2076;138;190680;41;Trapezohedron;Kain's Lance;25;Ethereal Mantle;Fettered Magic;169;385;0;0;Fang
+Kain's Lance;11;89525;-;-;11;4400;275;1769625;100;-;-;;-;Fettered Magic;287;962;0;0;Fang
+Partisan;3;3300;6600;Up In Arms;11;420;75;33000;26;Perovskite;Rhomphaia;14;Magic Wall;-;6;31;39;189;Fang
+Rhomphaia;5;16372;-;-;11;1730;115;307350;61;Trapezohedron;Kain's Lance;35;Magic Wall;-;36;130;138;467;Fang
+Kain's Lance;11;94940;-;-;11;4400;275;1769625;100;-;-;;-;-;112;307;319;839;Fang
+Shamanic Spear;4;11500;23000;Gilgamesh, inc.;11;800;116;38040;21;Uraninite;Heretic's Halberd;15;Magic Damper;Enfeeblement;0;0;47;187;Fang
+Heretic's Halberd;6;34030;-;-;11;1500;168;191040;41;Trapezohedron;Kain's Lance;25;Magic Damper;Hindrance;0;0;162;370;Fang
+Kain's Lance;11;89525;-;-;11;4400;275;1769625;100;-;-;;-;Hindrance;0;0;266;941;Fang
+Punisher;5;15500;31000;Plautus's Workshop;12;1500;215;70850;21;Scarletite;Banescissor Spear;17;Magic Wall;Stagger: TP Charge;20;100;31;151;Fang
+Banescissor Spear;8;48700;-;-;12;2600;232;284960;41;Trapezohedron;Kain's Lance;33;Magic Wall;Stagger: TP Charge II;102;222;150;318;Fang
+Kain's Lance;11;120125;-;-;12;4400;275;1769625;100;-;-;;-;Stagger: TP Charge II;182;517;262;731;Fang
+Pandoran Spear;5;8100;16200;Plautus's Workshop;9;1500;215;70850;21;Scarletite;Calamity Spear;16;Buff Duration;Improved Debilitation;20;100;31;151;Fang
+Calamity Spear;8;28935;-;-;9;3000;240;307200;41;Trapezohedron;Kain's Lance;35;Buff Duration;Improved Debilitation II;97;222;143;318;Fang
+Kain's Lance;11;89555;-;-;11;4400;275;1769625;100;-;-;;-;Improved Debilitation II;226;616;310;830;Fang
+Taming Pole;4;13500;27000;Gilgamesh, inc.;11;800;116;54800;26;Uraninite;Venus Gospel;19;Random: Instant Chain;Stagger Lock;23;148;23;148;Fang
+Venus Gospel;6;41418;-;-;11;1500;168;387360;61;Trapezohedron;Kain's Lance;40;Random: Instant Chain;Stagger Lock;138;390;138;390;Fang
+Kain's Lance;11;121875;-;-;11;4400;275;1769625;100;-;-;;-;Stagger Lock;381;921;381;921;Fang
+Gae Bolg;5;6550;13100;Plautus's Workshop;7;1500;215;70850;21;Scarletite;Gungnir;17;Buff Duration;Improved Counter;23;103;12;92;Fang
+Gungnir;8;25430;-;-;9;2600;232;284960;41;Trapezohedron;Kain's Lance;33;Buff Duration;Improved Counter II;110;230;100;220;Fang
+Kain's Lance;11;79402;-;-;11;4400;275;1769625;100;-;-;;-;Improved Counter II;240;642;240;642;Fang

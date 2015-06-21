@@ -231,8 +231,8 @@ public class Parser {
         String synthesizedAbility = row[COL_SYNTHESIS];
         String passiveAbility = row[COL_ABILITY];
 
-        int bonusMin = Integer.parseInt(row[COL_BONUS_MIN]);
-        int bonusMax = Integer.parseInt(row[COL_BONUS_MAX]);
+        int bonusMin = optionalInt(row[COL_BONUS_MIN]);
+        int bonusMax = optionalInt(row[COL_BONUS_MAX]);
 
         accessories.add(new Accessory(name, rank, sellPrice, buyPrice, shopToBuy, chapterAvailability, expFirstLevel,
                 expIncrement, expToMax, maxLevel, catalyst, evolution, evolutionLvl, synthesizedAbility,

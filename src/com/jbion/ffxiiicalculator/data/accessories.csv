@@ -1,0 +1,120 @@
+Name;Rank;Sell Price;Buy Price;Shop;Chapter;1st level exp;Increment exp;Master EXP;Max level;Catalyst;Upgraded To;Upgraded Item Level;Synthesizes;Ability;Bonus Min;Bonus Max
+Iron Bangle;1;250;500;;1;100;28;780;6;Millerite;Silver Bangle;4;High HP: Power Surge;HP: +X;50;120
+Silver Bangle;2;400;800;;3;200;56;1560;6;Rhodochrosite;Tungsten Bangle;4;Physical Wall;HP: +X;100;180
+Tungsten Bangle;3;750;1500;;5;330;99;7755;11;Cobaltite;Titanium Bangle;9;Low HP: Power Surge;HP: +X;150;230
+Titanium Bangle;4;1800;3600;;5;440;132;10340;11;Perovskite;Gold Bangle;9;Damage Wall;HP: +X;200;280
+Gold Bangle;5;4500;9000;;7;550;165;12925;11;Uraninite;Mythril Bangle;9;Magic Wall;HP: +X;250;350
+Mythril Bangle;6;7500;15000;;7;720;228;34740;16;Mnar Stone;Platinum Bangle;13;High HP: Power Surge;HP: +X;300;450
+Platinum Bangle;7;24000;48000;;10;910;301;75390;21;Scarletite;Diamond Bangle;18;Physical Wall;HP: +X;400;600
+Diamond Bangle;8;36000;-;;10;1120;384;143200;26;Adamantite;Adamant Bangle;23;Magic Wall;HP: +X;500;1000
+Adamant Bangle;9;50000;-;;11;1350;477;331065;36;Dark Matter;Wurtzite Bangle;32;Damage Wall;HP: +X;800;1500
+Wurtzite Bangle;10;177838;-;;11;1600;580;790500;51;-;-;-;-;HP: +X;2430;3000
+Power Wristband;2;500;1000;;2;520;212;4720;6;Cobaltite;Brawler's Wristband;4;Physical Wall;Strength: +X;20;60
+Brawler's Wristband;4;1500;3000;;4;1040;424;29480;11;Uraninite;Warrior's Wristband;8;Physical Wall;Strength: +X;50;120
+Warrior's Wristband;6;5000;10000;;7;1560;636;44220;11;Scarletite;Power Glove;9;Physical Wall;Strength: +X;100;180
+Power Glove;8;13500;-;;9;2080;848;58960;11;Dark Matter;Kaiser Knuckles;9;Physical Wall;Strength: +X;150;250
+Kaiser Knuckles;10;36180;-;;11;2600;1060;73700;11;-;-;-;Ethereal Mantle;Strength: +X;280;300
+Magician's Mark;2;500;1000;;3;520;212;4720;6;Cobaltite;Shaman's Mark;4;Magic Wall;Magic: +X;20;60
+Shaman's Mark;4;1500;3000;;4;1040;424;29480;11;Uraninite;Sorcerer's Mark;8;Magic Wall;Magic: +X;50;120
+Sorcerer's Mark;6;5000;10000;;7;1560;636;44220;11;Scarletite;Weirding Glyph;9;Magic Wall;Magic: +X;100;180
+Weirding Glyph;8;13500;-;;9;2080;848;58960;11;Dark Matter;Magistral Crest;9;Magic Wall;Magic: +X;150;250
+Magistral Crest;10;36180;-;;11;2600;1060;73700;11;-;-;-;Magic Damper;Magic: +X;280;300
+Black Belt;3;2250;4500;;4;480;198;4380;6;Uraninite;General's Belt;4;Physical Wall;Resist Physical: +X%;10;20
+General's Belt;6;6000;12000;;7;960;396;27420;11;Adamantite;Champion's Belt;8;Physical Wall;Resist Physical: +X%;15;25
+Champion's Belt;9;21468;-;;11;1440;594;41130;11;-;-;-;Physical Wall;Resist Physical: +X%;27;30
+Rune Bracelet;3;2250;4500;;4;480;198;4380;6;Uraninite;Witch's Bracelet;4;Magic Wall;Resist Magic: +X%;10;20
+Witch's Bracelet;6;6000;12000;;7;960;396;27420;11;Adamantite;Magus's Bracelet;8;Magic Wall;Resist Magic: +X%;15;25
+Magus's Bracelet;9;21468;-;;11;1440;594;41130;11;-;-;-;Magic Wall;Resist Magic: +X%;27;30
+Royal Armlet;8;20000;200000;;9;1000;264;21880;11;Dark Matter;Imperial Armlet;6;-;Resist Damage: +X%;5;15
+Imperial Armlet;10;50000;-;;11;1500;330;10800;6;-;-;-;-;Resist Damage: +X%;10;20
+Ember Ring;2;1000;-;;4;200;26;1260;6;Cobaltite;Blaze Ring;3;Fire Damage;Resist Fire: +X%;20;30
+Blaze Ring;4;3000;-;;4;500;112;3620;6;Uraninite;Salamandrine Ring;4;Fire Damage;Resist Fire: +X%;25;35
+Salamandrine Ring;6;5588;-;;7;900;198;6480;6;-;-;-;Fire Damage;Resist Fire: +X%;36;40
+Frost Ring;2;1000;-;;11;200;26;1260;6;Cobaltite;Icicle Ring;3;Ice Damage;Resist Ice: +X%;20;30
+Icicle Ring;4;3174;-;;11;500;112;3620;6;Uraninite;Boreal Ring;4;Ice Damage;Resist Ice: +X%;29;35
+Boreal Ring;6;5588;-;;11;900;198;6480;6;-;-;-;Ice Damage;Resist Ice: +X%;36;40
+Spark Ring;2;1000;-;;3;200;26;1260;6;Cobaltite;Fulmen Ring;3;Lightning Damage;Resist Lightning: +X%;20;30
+Fulmen Ring;4;3000;-;;4;500;112;3620;6;Uraninite;Raijin Ring;4;Lightning Damage;Resist Lightning: +X%;25;35
+Raijin Ring;6;5588;-;;7;900;198;6480;6;-;-;-;Lightning Damage;Resist Lightning: +X%;36;40
+Aqua Ring;2;1000;-;;6;200;26;1260;6;Cobaltite;Riptide Ring;3;Water Damage;Resist Water: +X%;20;30
+Riptide Ring;4;3000;-;;6;500;112;3620;6;Uraninite;Nereid Ring;4;Water Damage;Resist Water: +X%;25;35
+Nereid Ring;6;5588;-;;7;900;198;6480;6;-;-;-;Water Damage;Resist Water: +X%;36;40
+Zephyr Ring;2;1000;-;;11;200;26;1260;6;Cobaltite;Gale Ring;3;Wind Damage;Resist Wind: +X%;20;30
+Gale Ring;4;3000;-;;11;500;112;3620;6;Uraninite;Sylphid Ring;4;Wind Damage;Resist Wind: +X%;25;35
+Sylphid Ring;6;5588;-;;11;900;198;6480;6;-;-;-;Wind Damage;Resist Wind: +X%;36;40
+Clay Ring;2;1000;-;;11;200;26;1260;6;Cobaltite;Siltstone Ring;3;Earth Damage;Resist Earth: +X%;20;30
+Siltstone Ring;4;3000;-;;11;500;112;3620;6;Uraninite;Gaian Ring;4;Earth Damage;Resist Earth: +X%;25;35
+Gaian Ring;6;5588;-;;11;900;198;6480;6;-;-;-;Earth Damage;Resist Earth: +X%;36;40
+Giant's Glove;3;1500;3000;;11;450;114;3390;6;Perovskite;Warlord's Glove;4;Debrave Duration;Resist Debrave: +X%;30;45
+Warlord's Glove;5;4438;-;;11;760;195;16375;11;-;-;-;Debrave Duration;Resist Debrave: +X%;46;60
+Glass Buckle;3;1500;3000;;11;450;114;3390;6;Perovskite;Tektite Buckle;4;Defaith Duration;Resist Defaith: +X%;30;45
+Tektite Buckle;5;4438;-;;11;760;195;16375;11;-;-;-;Defaith Duration;Resist Defaith: +X%;46;60
+Metal Armband;3;1500;3000;;4;450;114;3390;6;Perovskite;Ceramic Armband;4;Deprotect Duration;Resist Deprotect: +X%;30;45
+Ceramic Armband;5;4438;-;;7;760;195;16375;11;-;-;-;Deprotect Duration;Resist Deprotect: +X%;46;60
+Serenity Sachet;3;1500;3000;;5;450;114;3390;6;Perovskite;Safeguard Sachet;4;Deshell Duration;Resist Deshell: +X%;30;45
+Safeguard Sachet;5;4438;-;;7;760;195;16375;11;-;-;-;Deshell Duration;Resist Deshell: +X%;46;60
+Glass Orb;3;1500;3000;;9;450;114;3390;6;Perovskite;Dragonfly Orb;4;Slow Duration;Resist Slow: +X%;30;45
+Dragonfly Orb;5;4438;-;;9;760;195;16375;11;-;-;-;Slow Duration;Resist Slow: +X%;46;60
+Star Pendant;3;1500;3000;;5;450;114;3390;6;Perovskite;Starfall Pendant;4;Poison Duration;Resist Poison: +X%;30;45
+Starfall Pendant;5;4438;-;;7;760;195;16375;11;-;-;-;Poison Duration;Resist Poison: +X%;46;60
+Pearl Necklace;3;1500;3000;;11;450;114;3390;6;Perovskite;Gemstone Necklace;4;Imperil Duration;Resist Imperil: +X%;30;45
+Gemstone Necklace;5;4438;-;;11;760;195;16375;11;-;-;-;Imperil Duration;Resist Imperil: +X%;46;60
+Warding Talisman;3;1500;3000;;7;450;114;3390;6;Perovskite;Hexbane Talisman;4;Curse Duration;Resist Curse: +X%;30;45
+Hexbane Talisman;5;4438;-;;7;760;195;16375;11;-;-;-;Curse Duration;Resist Curse: +X%;46;60
+Pain Dampener;3;1500;3000;;9;450;114;3390;6;Perovskite;Pain Deflector;4;Pain Duration;Resist Pain: +X%;30;45
+Pain Deflector;5;4438;-;;9;760;195;16375;11;-;-;-;Pain Duration;Resist Pain: +X%;46;60
+White Cape;3;1500;3000;;9;450;114;3390;6;Perovskite;Effulgent Cape;4;Fog Duration;Resist Fog: +X%;30;45
+Effulgent Cape;5;4438;-;;9;760;195;16375;11;-;-;-;Fog Duration;Resist Fog: +X%;46;60
+Rainbow Anklet;3;1500;3000;;10;450;114;3390;6;Perovskite;Moonbow Anklet;4;Daze Duration;Resist Daze: +X%;30;45
+Moonbow Anklet;5;4438;-;;10;760;195;16375;11;-;-;-;Daze Duration;Resist Daze: +X%;46;60
+Cherub's Crown;3;1500;3000;;11;450;114;3390;6;Perovskite;Seraph's Crown;4;Vampiric Strike;Resist Death: +X%;30;45
+Seraph's Crown;5;4438;-;;11;760;195;16375;11;-;-;-;Vampiric Strike;Resist Death: +X%;46;60
+Guardian Amulet;2;2500;5000;;7;600;-;600;2;Perovskite;Shield Talisman;1;Physical Wall;Critical: Protect;-;
+Shield Talisman;5;6000;-;;7;1500;-;1500;2;-;-;-;Physical Wall;Auto-Protect;-;
+Auric Amulet;2;2500;5000;;4;600;-;600;2;Perovskite;Soulfont Talisman;1;Magic Wall;Critical: Shell;-;
+Soulfont Talisman;5;6000;-;;7;1500;-;1500;2;-;-;-;Magic Wall;Auto-Shell;-;
+Watchman's Amulet;2;2500;5000;;5;600;-;600;2;Perovskite;Shrouding Talisman;1;Buff Duration;Critical: Veil;-;
+Shrouding Talisman;5;6000;-;;7;1500;-;1500;2;-;-;-;Buff Duration;Auto-Veil;-;
+Hero's Amulet;2;2500;5000;;10;600;-;600;2;Perovskite;Morale Talisman;1;Physical Wall;Critical: Bravery;-;
+Morale Talisman;5;6000;-;;10;1500;-;1500;2;-;-;-;Physical Wall;Auto-Bravery;-;
+Saint's Amulet;2;2500;5000;;10;600;-;600;2;Perovskite;Blessed Talisman;1;Magic Wall;Critical: Faith;-;
+Blessed Talisman;5;6000;-;;9;1500;-;1500;2;-;-;-;Magic Wall;Auto-Faith;-;
+Zealot's Amulet;2;2500;5000;;11;600;-;600;2;Perovskite;Battle Talisman;1;Vampiric Strike;Critical: Vigilance;-;
+Battle Talisman;5;6000;-;;11;1500;-;1500;2;-;-;-;Vampiric Strike;Auto-Vigilance;-;
+Flamebane Brooch;2;1500;3000;;11;600;-;600;2;Perovskite;Flameshield Earring;1;Fire Damage;Critical: Barfire;-;
+Flameshield Earring;5;4000;-;;11;1500;-;1500;2;-;-;-;Fire Damage;Auto-Barfire;-;
+Frostbane Brooch;2;1500;3000;;11;600;-;600;2;Perovskite;Frostshield Earring;1;Ice Damage;Critical: Barfrost;-;
+Frostshield Earring;5;4000;-;;11;1500;-;1500;2;-;-;-;Ice Damage;Auto-Barfrost;-;
+Sparkbane Brooch;2;1500;3000;;11;600;-;600;2;Perovskite;Sparkshield Earring;1;Lightning Damage;Critical: Barthunder;-;
+Sparkshield Earring;5;4000;-;;11;1500;-;1500;2;-;-;-;Lightning Damage;Auto-Barthunder;-;
+Aquabane Brooch;2;1500;3000;;11;600;-;600;2;Perovskite;Aquashield Earring;1;Water Damage;Critical: Barwater;-;
+Aquashield Earring;5;4000;-;;11;1500;-;1500;2;-;-;-;Water Damage;Auto-Barwater;-;
+Hermes Sandals;2;2500;-;;10;600;-;600;2;Perovskite;Sprint Shoes;1;ATB Rate;Critical: Haste;-;
+Sprint Shoes;5;6000;-;;10;1500;-;1500;2;-;-;-;ATB Rate;Auto-Haste;-;
+Tetradic Crown;4;15000;-;;10;1000;-;1000;2;Scarletite;Tetradic Tiara;1;-;Critical: Tetradefense;-;
+Tetradic Tiara;8;40000;-;;10;2000;-;2000;2;-;-;-;-;Auto-Tetradefense;-;
+Whistlewind Scarf;2;500;1000;;9;350;-;350;2;Rhodochrosite;Aurora Scarf;1;ATB Rate;ATB Advantage;-;
+Aurora Scarf;3;1500;-;;9;525;-;525;2;Cobaltite;Nimbletoe Boots;1;ATB Rate;First Strike;-;
+Nimbletoe Boots;4;3000;6000;;9;700;-;700;2;-;-;-;ATB Rate;Improved Evasion;-;
+Survivalist Catalog;5;3500;-;;11;875;-;875;2;Uraninite;Collector Catalog;1;Random: Instant Chain;Shroud Scavenger;-;
+Collector Catalog;6;50000;100000;;10;1050;-;1050;2;Mnar Stone;Connoisseur Catalog;1;-;Item Scavenger;-;
+Connoisseur Catalog;7;125000;-;;10;1225;-;1225;2;-;-;-;-;Item Collector;-;
+Hunter's Friend;5;2500;-;;11;875;-;875;2;Uraninite;Speed Sash;1;Random: Instant Chain;Kill: Libra;-;
+Speed Sash;6;5000;10000;;11;1050;-;1050;2;Mnar Stone;Energy Sash;1;Random: Instant Chain;Kill: ATB Charge;-;
+Energy Sash;7;7500;-;;11;1225;-;1225;2;-;-;-;Random: Instant Chain;Kill: TP Charge;-;
+Doctor's Code;2;2500;-;;2;200;-;200;2;-;-;-;-;Improved Potions;-;
+Gold Watch;3;10000;-;;11;525;-;525;2;Cobaltite;Champion's Badge;1;-;Time Extension;-;
+Champion's Badge;4;5000;-;;11;700;-;700;2;Perovskite;Survivalist Catalog;1;Random: Instant Chain;Victory: TP Charge;-;
+Fire Charm;5;7500;-;;11;750;-;750;2;Mnar Stone;Twenty-sided Die;1;Fire Damage;Random: Fire Eater;-;
+Ice Charm;5;7500;-;;11;750;-;750;2;Mnar Stone;Twenty-sided Die;1;Ice Damage;Random: Ice Eater;-;
+Lightning Charm;5;7500;-;;11;750;-;750;2;Mnar Stone;Twenty-sided Die;1;Lightning Damage;Random: Lightning Eater;-;
+Water Charm;5;7500;-;;11;750;-;750;2;Mnar Stone;Twenty-sided Die;1;Water Damage;Random: Water Eater;-;
+Wind Charm;5;7500;-;;11;750;-;750;2;Mnar Stone;Twenty-sided Die;1;Wind Damage;Random: Wind Eater;-;
+Earth Charm;5;7500;-;;11;750;-;750;2;Mnar Stone;Twenty-sided Die;1;Earth Damage;Random: Earth Eater;-;
+Twenty-sided Die;7;22500;-;;11;1050;-;1050;2;-;-;-;-;Random: Nullify Damage;-;
+Growth Egg;8;250000;-;;11;7000;-;7000;2;-;-;-;-;CP: x2;-;
+Entite Ring;5;60000;120000;;9;800;185;31425;16;Uraninite;Goddess's Favor;2;-;Resist Elements: +X%;10;25
+Goddess's Favor;6;10;-;;9;1800;-;1800;2;-;-;-;-;Rapid Recovery;-;
+Ribbon;9;10;-;;9;2520;783;20430;6;Dark Matter;Super Ribbon;4;-;Resilience: +X%;20;25
+Super Ribbon;10;1648;-;;11;5000;1530;40300;6;-;-;-;-;Resilience: +X%;28;30
+Genji Glove;9;10;-;;11;11250;-;11250;2;-;-;-;-;Uncapped Damage;-;
