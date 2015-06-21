@@ -51,4 +51,9 @@ public class Item {
     public Integer getChapterAvailability() {
         return chapterAvailability;
     }
+
+    @Override
+    public String toString() {
+        return name + " (rank " + rank + ")";
+    }
 }

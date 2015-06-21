@@ -69,52 +69,52 @@ Rainbow Anklet;3;1500;3000;;10;450;114;3390;6;Perovskite;Moonbow Anklet;4;Daze D
 Moonbow Anklet;5;4438;-;;10;760;195;16375;11;-;-;-;Daze Duration;Resist Daze: +X%;46;60
 Cherub's Crown;3;1500;3000;;11;450;114;3390;6;Perovskite;Seraph's Crown;4;Vampiric Strike;Resist Death: +X%;30;45
 Seraph's Crown;5;4438;-;;11;760;195;16375;11;-;-;-;Vampiric Strike;Resist Death: +X%;46;60
-Guardian Amulet;2;2500;5000;;7;600;-;600;2;Perovskite;Shield Talisman;1;Physical Wall;Critical: Protect;-;
-Shield Talisman;5;6000;-;;7;1500;-;1500;2;-;-;-;Physical Wall;Auto-Protect;-;
-Auric Amulet;2;2500;5000;;4;600;-;600;2;Perovskite;Soulfont Talisman;1;Magic Wall;Critical: Shell;-;
-Soulfont Talisman;5;6000;-;;7;1500;-;1500;2;-;-;-;Magic Wall;Auto-Shell;-;
-Watchman's Amulet;2;2500;5000;;5;600;-;600;2;Perovskite;Shrouding Talisman;1;Buff Duration;Critical: Veil;-;
-Shrouding Talisman;5;6000;-;;7;1500;-;1500;2;-;-;-;Buff Duration;Auto-Veil;-;
-Hero's Amulet;2;2500;5000;;10;600;-;600;2;Perovskite;Morale Talisman;1;Physical Wall;Critical: Bravery;-;
-Morale Talisman;5;6000;-;;10;1500;-;1500;2;-;-;-;Physical Wall;Auto-Bravery;-;
-Saint's Amulet;2;2500;5000;;10;600;-;600;2;Perovskite;Blessed Talisman;1;Magic Wall;Critical: Faith;-;
-Blessed Talisman;5;6000;-;;9;1500;-;1500;2;-;-;-;Magic Wall;Auto-Faith;-;
-Zealot's Amulet;2;2500;5000;;11;600;-;600;2;Perovskite;Battle Talisman;1;Vampiric Strike;Critical: Vigilance;-;
-Battle Talisman;5;6000;-;;11;1500;-;1500;2;-;-;-;Vampiric Strike;Auto-Vigilance;-;
-Flamebane Brooch;2;1500;3000;;11;600;-;600;2;Perovskite;Flameshield Earring;1;Fire Damage;Critical: Barfire;-;
-Flameshield Earring;5;4000;-;;11;1500;-;1500;2;-;-;-;Fire Damage;Auto-Barfire;-;
-Frostbane Brooch;2;1500;3000;;11;600;-;600;2;Perovskite;Frostshield Earring;1;Ice Damage;Critical: Barfrost;-;
-Frostshield Earring;5;4000;-;;11;1500;-;1500;2;-;-;-;Ice Damage;Auto-Barfrost;-;
-Sparkbane Brooch;2;1500;3000;;11;600;-;600;2;Perovskite;Sparkshield Earring;1;Lightning Damage;Critical: Barthunder;-;
-Sparkshield Earring;5;4000;-;;11;1500;-;1500;2;-;-;-;Lightning Damage;Auto-Barthunder;-;
-Aquabane Brooch;2;1500;3000;;11;600;-;600;2;Perovskite;Aquashield Earring;1;Water Damage;Critical: Barwater;-;
-Aquashield Earring;5;4000;-;;11;1500;-;1500;2;-;-;-;Water Damage;Auto-Barwater;-;
-Hermes Sandals;2;2500;-;;10;600;-;600;2;Perovskite;Sprint Shoes;1;ATB Rate;Critical: Haste;-;
-Sprint Shoes;5;6000;-;;10;1500;-;1500;2;-;-;-;ATB Rate;Auto-Haste;-;
-Tetradic Crown;4;15000;-;;10;1000;-;1000;2;Scarletite;Tetradic Tiara;1;-;Critical: Tetradefense;-;
-Tetradic Tiara;8;40000;-;;10;2000;-;2000;2;-;-;-;-;Auto-Tetradefense;-;
-Whistlewind Scarf;2;500;1000;;9;350;-;350;2;Rhodochrosite;Aurora Scarf;1;ATB Rate;ATB Advantage;-;
-Aurora Scarf;3;1500;-;;9;525;-;525;2;Cobaltite;Nimbletoe Boots;1;ATB Rate;First Strike;-;
-Nimbletoe Boots;4;3000;6000;;9;700;-;700;2;-;-;-;ATB Rate;Improved Evasion;-;
-Survivalist Catalog;5;3500;-;;11;875;-;875;2;Uraninite;Collector Catalog;1;Random: Instant Chain;Shroud Scavenger;-;
-Collector Catalog;6;50000;100000;;10;1050;-;1050;2;Mnar Stone;Connoisseur Catalog;1;-;Item Scavenger;-;
-Connoisseur Catalog;7;125000;-;;10;1225;-;1225;2;-;-;-;-;Item Collector;-;
-Hunter's Friend;5;2500;-;;11;875;-;875;2;Uraninite;Speed Sash;1;Random: Instant Chain;Kill: Libra;-;
-Speed Sash;6;5000;10000;;11;1050;-;1050;2;Mnar Stone;Energy Sash;1;Random: Instant Chain;Kill: ATB Charge;-;
-Energy Sash;7;7500;-;;11;1225;-;1225;2;-;-;-;Random: Instant Chain;Kill: TP Charge;-;
-Doctor's Code;2;2500;-;;2;200;-;200;2;-;-;-;-;Improved Potions;-;
-Gold Watch;3;10000;-;;11;525;-;525;2;Cobaltite;Champion's Badge;1;-;Time Extension;-;
-Champion's Badge;4;5000;-;;11;700;-;700;2;Perovskite;Survivalist Catalog;1;Random: Instant Chain;Victory: TP Charge;-;
-Fire Charm;5;7500;-;;11;750;-;750;2;Mnar Stone;Twenty-sided Die;1;Fire Damage;Random: Fire Eater;-;
-Ice Charm;5;7500;-;;11;750;-;750;2;Mnar Stone;Twenty-sided Die;1;Ice Damage;Random: Ice Eater;-;
-Lightning Charm;5;7500;-;;11;750;-;750;2;Mnar Stone;Twenty-sided Die;1;Lightning Damage;Random: Lightning Eater;-;
-Water Charm;5;7500;-;;11;750;-;750;2;Mnar Stone;Twenty-sided Die;1;Water Damage;Random: Water Eater;-;
-Wind Charm;5;7500;-;;11;750;-;750;2;Mnar Stone;Twenty-sided Die;1;Wind Damage;Random: Wind Eater;-;
-Earth Charm;5;7500;-;;11;750;-;750;2;Mnar Stone;Twenty-sided Die;1;Earth Damage;Random: Earth Eater;-;
-Twenty-sided Die;7;22500;-;;11;1050;-;1050;2;-;-;-;-;Random: Nullify Damage;-;
-Growth Egg;8;250000;-;;11;7000;-;7000;2;-;-;-;-;CP: x2;-;
+Guardian Amulet;2;2500;5000;;7;600;-;600;2;Perovskite;Shield Talisman;1;Physical Wall;Critical: Protect;-;-
+Shield Talisman;5;6000;-;;7;1500;-;1500;2;-;-;-;Physical Wall;Auto-Protect;-;-
+Auric Amulet;2;2500;5000;;4;600;-;600;2;Perovskite;Soulfont Talisman;1;Magic Wall;Critical: Shell;-;-
+Soulfont Talisman;5;6000;-;;7;1500;-;1500;2;-;-;-;Magic Wall;Auto-Shell;-;-
+Watchman's Amulet;2;2500;5000;;5;600;-;600;2;Perovskite;Shrouding Talisman;1;Buff Duration;Critical: Veil;-;-
+Shrouding Talisman;5;6000;-;;7;1500;-;1500;2;-;-;-;Buff Duration;Auto-Veil;-;-
+Hero's Amulet;2;2500;5000;;10;600;-;600;2;Perovskite;Morale Talisman;1;Physical Wall;Critical: Bravery;-;-
+Morale Talisman;5;6000;-;;10;1500;-;1500;2;-;-;-;Physical Wall;Auto-Bravery;-;-
+Saint's Amulet;2;2500;5000;;10;600;-;600;2;Perovskite;Blessed Talisman;1;Magic Wall;Critical: Faith;-;-
+Blessed Talisman;5;6000;-;;9;1500;-;1500;2;-;-;-;Magic Wall;Auto-Faith;-;-
+Zealot's Amulet;2;2500;5000;;11;600;-;600;2;Perovskite;Battle Talisman;1;Vampiric Strike;Critical: Vigilance;-;-
+Battle Talisman;5;6000;-;;11;1500;-;1500;2;-;-;-;Vampiric Strike;Auto-Vigilance;-;-
+Flamebane Brooch;2;1500;3000;;11;600;-;600;2;Perovskite;Flameshield Earring;1;Fire Damage;Critical: Barfire;-;-
+Flameshield Earring;5;4000;-;;11;1500;-;1500;2;-;-;-;Fire Damage;Auto-Barfire;-;-
+Frostbane Brooch;2;1500;3000;;11;600;-;600;2;Perovskite;Frostshield Earring;1;Ice Damage;Critical: Barfrost;-;-
+Frostshield Earring;5;4000;-;;11;1500;-;1500;2;-;-;-;Ice Damage;Auto-Barfrost;-;-
+Sparkbane Brooch;2;1500;3000;;11;600;-;600;2;Perovskite;Sparkshield Earring;1;Lightning Damage;Critical: Barthunder;-;-
+Sparkshield Earring;5;4000;-;;11;1500;-;1500;2;-;-;-;Lightning Damage;Auto-Barthunder;-;-
+Aquabane Brooch;2;1500;3000;;11;600;-;600;2;Perovskite;Aquashield Earring;1;Water Damage;Critical: Barwater;-;-
+Aquashield Earring;5;4000;-;;11;1500;-;1500;2;-;-;-;Water Damage;Auto-Barwater;-;-
+Hermes Sandals;2;2500;-;;10;600;-;600;2;Perovskite;Sprint Shoes;1;ATB Rate;Critical: Haste;-;-
+Sprint Shoes;5;6000;-;;10;1500;-;1500;2;-;-;-;ATB Rate;Auto-Haste;-;-
+Tetradic Crown;4;15000;-;;10;1000;-;1000;2;Scarletite;Tetradic Tiara;1;-;Critical: Tetradefense;-;-
+Tetradic Tiara;8;40000;-;;10;2000;-;2000;2;-;-;-;-;Auto-Tetradefense;-;-
+Whistlewind Scarf;2;500;1000;;9;350;-;350;2;Rhodochrosite;Aurora Scarf;1;ATB Rate;ATB Advantage;-;-
+Aurora Scarf;3;1500;-;;9;525;-;525;2;Cobaltite;Nimbletoe Boots;1;ATB Rate;First Strike;-;-
+Nimbletoe Boots;4;3000;6000;;9;700;-;700;2;-;-;-;ATB Rate;Improved Evasion;-;-
+Survivalist Catalog;5;3500;-;;11;875;-;875;2;Uraninite;Collector Catalog;1;Random: Instant Chain;Shroud Scavenger;-;-
+Collector Catalog;6;50000;100000;;10;1050;-;1050;2;Mnar Stone;Connoisseur Catalog;1;-;Item Scavenger;-;-
+Connoisseur Catalog;7;125000;-;;10;1225;-;1225;2;-;-;-;-;Item Collector;-;-
+Hunter's Friend;5;2500;-;;11;875;-;875;2;Uraninite;Speed Sash;1;Random: Instant Chain;Kill: Libra;-;-
+Speed Sash;6;5000;10000;;11;1050;-;1050;2;Mnar Stone;Energy Sash;1;Random: Instant Chain;Kill: ATB Charge;-;-
+Energy Sash;7;7500;-;;11;1225;-;1225;2;-;-;-;Random: Instant Chain;Kill: TP Charge;-;-
+Doctor's Code;2;2500;-;;2;200;-;200;2;-;-;-;-;Improved Potions;-;-
+Gold Watch;3;10000;-;;11;525;-;525;2;Cobaltite;Champion's Badge;1;-;Time Extension;-;-
+Champion's Badge;4;5000;-;;11;700;-;700;2;Perovskite;Survivalist Catalog;1;Random: Instant Chain;Victory: TP Charge;-;-
+Fire Charm;5;7500;-;;11;750;-;750;2;Mnar Stone;Twenty-sided Die;1;Fire Damage;Random: Fire Eater;-;-
+Ice Charm;5;7500;-;;11;750;-;750;2;Mnar Stone;Twenty-sided Die;1;Ice Damage;Random: Ice Eater;-;-
+Lightning Charm;5;7500;-;;11;750;-;750;2;Mnar Stone;Twenty-sided Die;1;Lightning Damage;Random: Lightning Eater;-;-
+Water Charm;5;7500;-;;11;750;-;750;2;Mnar Stone;Twenty-sided Die;1;Water Damage;Random: Water Eater;-;-
+Wind Charm;5;7500;-;;11;750;-;750;2;Mnar Stone;Twenty-sided Die;1;Wind Damage;Random: Wind Eater;-;-
+Earth Charm;5;7500;-;;11;750;-;750;2;Mnar Stone;Twenty-sided Die;1;Earth Damage;Random: Earth Eater;-;-
+Twenty-sided Die;7;22500;-;;11;1050;-;1050;2;-;-;-;-;Random: Nullify Damage;-;-
+Growth Egg;8;250000;-;;11;7000;-;7000;2;-;-;-;-;CP: x2;-;-
 Entite Ring;5;60000;120000;;9;800;185;31425;16;Uraninite;Goddess's Favor;2;-;Resist Elements: +X%;10;25
-Goddess's Favor;6;10;-;;9;1800;-;1800;2;-;-;-;-;Rapid Recovery;-;
+Goddess's Favor;6;10;-;;9;1800;-;1800;2;-;-;-;-;Rapid Recovery;-;-
 Ribbon;9;10;-;;9;2520;783;20430;6;Dark Matter;Super Ribbon;4;-;Resilience: +X%;20;25
 Super Ribbon;10;1648;-;;11;5000;1530;40300;6;-;-;-;-;Resilience: +X%;28;30
-Genji Glove;9;10;-;;11;11250;-;11250;2;-;-;-;-;Uncapped Damage;-;
+Genji Glove;9;10;-;;11;11250;-;11250;2;-;-;-;-;Uncapped Damage;-;-

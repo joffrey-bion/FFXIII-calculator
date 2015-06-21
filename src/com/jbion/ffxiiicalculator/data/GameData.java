@@ -1,0 +1,85 @@
+package com.jbion.ffxiiicalculator.data;
+
+import java.util.Set;
+import java.util.stream.Collectors;
+
+import com.jbion.ffxiiicalculator.model.Accessory;
+import com.jbion.ffxiiicalculator.model.Component;
+import com.jbion.ffxiiicalculator.model.Component.Type;
+import com.jbion.ffxiiicalculator.model.Weapon;
+
+public class GameData {
+
+    private final Set<Component> allComponents;
+
+    private final Set<Component> organicComponents;
+
+    private final Set<Component> syntheticComponents;
+
+    private final Set<Component> catalysts;
+
+    private final Set<Weapon> weapons;
+
+    private final Set<Accessory> accessories;
+
+    public GameData(Set<Component> components, Set<Weapon> weapons, Set<Accessory> accessories) {
+        this.allComponents = components;
+        this.weapons = weapons;
+        this.accessories = accessories;
+
+        this.organicComponents = components.stream().filter(c -> c.getType() == Type.ORGANIC)
+                .collect(Collectors.toSet());
+        this.syntheticComponents = components.stream().filter(c -> c.getType() == Type.SYNTHETIC)
+                .collect(Collectors.toSet());
+        this.catalysts = components.stream().filter(c -> c.getType() == Type.CATALYST).collect(Collectors.toSet());
+    }
+
+    private void add(Component comp) {
+        switch (comp.getType()) {
+        case ORGANIC:
+            organicComponents.add(comp);
+            break;
+        case SYNTHETIC:
+            syntheticComponents.add(comp);
+            break;
+        case CATALYST:
+            catalysts.add(comp);
+            break;
+        }
+    }
+
+    public Set<Component> getComponents() {
+        return allComponents;
+    }
+
+    public Set<Component> getOrganicComponents() {
+        return organicComponents;
+    }
+
+    public Set<Component> getSyntheticComponents() {
+        return syntheticComponents;
+    }
+
+    public Set<Component> getCatalysts() {
+        return catalysts;
+    }
+
+    public Set<Weapon> getWeapons() {
+        return weapons;
+    }
+
+    public Set<Accessory> getAccessories() {
+        return accessories;
+    }
+
+    public double getMaxBonusRatio(int currentChapter) {
+        return syntheticComponents.stream().filter(c -> c.isBuyable(currentChapter))
+                .mapToDouble(Component::getBonusRatio).max().orElse(0);
+    }
+
+    public double getMaxExpRatio(int currentChapter, int targetRank) {
+        return syntheticComponents.stream().filter(c -> c.isBuyable(currentChapter))
+                .mapToDouble(c -> c.getExpRatio(targetRank)).max().orElse(0);
+    }
+
+}

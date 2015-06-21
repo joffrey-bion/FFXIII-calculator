@@ -1,5 +1,6 @@
 package com.jbion.ffxiiicalculator.data;
 
+import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashSet;
@@ -102,10 +103,11 @@ public class Parser {
 
     private final Set<Accessory> accessories = new HashSet<>();
 
-    public void parseData() {
+    public GameData parseData() {
         parseFile(FILE_COMPONENTS, ";", this::parseComponent);
         parseFileWithDependentRows(FILE_WEAPONS, ";", this::parseWeapon);
         parseFileWithDependentRows(FILE_ACCESSORIES, ";", this::parseAccessory);
+        return new GameData(components, weapons, accessories);
     }
 
     private Component findComponent(String name) {
@@ -121,7 +123,8 @@ public class Parser {
     }
 
     public void parseFile(String filename, String delimiter, Consumer<String[]> rowParser) {
-        try (CsvReader reader = new CsvReader(filename, delimiter)) {
+        InputStream stream = getClass().getResourceAsStream(filename);
+        try (CsvReader reader = new CsvReader(stream, delimiter)) {
             reader.readRow(); // skip the header
             String[] row;
             while ((row = reader.readRow()) != null) {
@@ -214,7 +217,7 @@ public class Parser {
             return;
         }
 
-        String name = row[COL_NAME];
+        String name = row[COL_NAME].trim();
         int rank = Integer.parseInt(row[COL_RANK]);
         int sellPrice = Integer.parseInt(row[COL_SELL_PRICE]);
         Integer buyPrice = optionalInt(row[COL_BUY_PRICE]);
@@ -231,8 +234,8 @@ public class Parser {
         String synthesizedAbility = row[COL_SYNTHESIS];
         String passiveAbility = row[COL_ABILITY];
 
-        int bonusMin = optionalInt(row[COL_BONUS_MIN]);
-        int bonusMax = optionalInt(row[COL_BONUS_MAX]);
+        Integer bonusMin = optionalInt(row[COL_BONUS_MIN]);
+        Integer bonusMax = optionalInt(row[COL_BONUS_MAX]);
 
         accessories.add(new Accessory(name, rank, sellPrice, buyPrice, shopToBuy, chapterAvailability, expFirstLevel,
                 expIncrement, expToMax, maxLevel, catalyst, evolution, evolutionLvl, synthesizedAbility,
@@ -252,13 +255,10 @@ public class Parser {
     }
 
     private static Integer optionalInt(String str) {
-        if (isEmpty(str)) {
-            return null;
-        }
-        return Integer.parseInt(str);
+        return optionalInt(str, null);
     }
 
-    private static Integer optionalInt(String str, int defaultValue) {
+    private static Integer optionalInt(String str, Integer defaultValue) {
         if (isEmpty(str)) {
             return defaultValue;
         }
@@ -270,5 +270,22 @@ public class Parser {
             return null;
         }
         return Shop.fromStringContaining(str);
+    }
+
+    public void printData() {
+        System.out.println("======== COMPONENTS (" + components.size() + ") ========");
+        System.out.println();
+        components.stream().forEach(c -> System.out.println(c));
+        System.out.println();
+
+        System.out.println("======== WEAPONS (" + weapons.size() + ") ========");
+        System.out.println();
+        weapons.stream().forEach(c -> System.out.println(c));
+        System.out.println();
+
+        System.out.println("======== ACCESSORIES (" + accessories.size() + ") ========");
+        System.out.println();
+        accessories.stream().forEach(c -> System.out.println(c));
+        System.out.println();
     }
 }
