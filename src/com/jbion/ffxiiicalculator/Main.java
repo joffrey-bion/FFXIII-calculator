@@ -36,15 +36,17 @@ public class Main extends Application {
 
         System.out.print("Init components...");
         Component sturdyBone = data.findComponent("Sturdy Bone");
+        Component crankshaft = data.findComponent("Crankshaft");
         Component superconductor = data.findComponent("Superconductor");
         Component particleAccelerator = data.findComponent("Particle Accelerator");
         Component ultracompactReactor = data.findComponent("Ultracompact Reactor");
 
         ComponentPool inventory = new ComponentPool();
-        inventory.add(sturdyBone, 50);
-        inventory.add(superconductor, 50);
-        inventory.add(particleAccelerator, 50);
-        inventory.add(ultracompactReactor, 20);
+        inventory.add(sturdyBone, 40);
+        //        inventory.add(crankshaft, 3);
+        //        inventory.add(superconductor, 2);
+        //        inventory.add(particleAccelerator, 1);
+        //        inventory.add(ultracompactReactor, 0);
 
         Weapon lionheart = data.findWeapon("Lionheart");
         ItemInstance item = new ItemInstance(lionheart, 3, 35, 0);
@@ -55,6 +57,7 @@ public class Main extends Application {
         System.out.println();
         System.out.println("Here is the upgrade plan:");
         System.out.println(plan);
+
         //launch(args);
         System.exit(0);
     }
