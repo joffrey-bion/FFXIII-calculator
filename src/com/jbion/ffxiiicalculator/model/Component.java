@@ -46,7 +46,7 @@ public class Component extends Item {
         return multiplierPoints;
     }
 
-    public double getBonusRatio() {
+    public double getBonusBuyPriceRatio() {
         Integer price = getBuyPrice();
         if (price == null) {
             return 0;
@@ -54,7 +54,11 @@ public class Component extends Item {
         return (double) multiplierPoints / (double) price;
     }
 
-    public double getExpRatio(int targetRank) {
+    public double getBonusSellPriceRatio() {
+        return (double) multiplierPoints / (double) getSellPrice();
+    }
+
+    public double getExpBuyPriceRatio(int targetRank) {
         Integer price = getBuyPrice();
         if (price == null) {
             return 0;
@@ -62,4 +66,12 @@ public class Component extends Item {
         return (double) getExperience(targetRank) / (double) price;
     }
 
+    public double getExpSellPriceRatio(int targetRank) {
+        return (double) getExperience(targetRank) / (double) getSellPrice();
+    }
+
+    @Override
+    public String toString() {
+        return String.format("%s [%d pts, %d XP, %dgil]", getName(), multiplierPoints, expPerRank[5], getSellPrice());
+    }
 }

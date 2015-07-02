@@ -44,6 +44,17 @@ public class ComponentSequence {
 
     public long getTotalValue() {
         return totalValue;
+        //return components.stream().mapToInt(g -> g.getCount() * g.getType().getSellPrice()).sum();
+    }
+
+    public long getTotalBonusPoints() {
+        return components.stream().mapToInt(g -> g.getCount() * g.getType().getBonusPoints()).sum();
+    }
+
+    public void clear() {
+        components.clear();
+        size = 0;
+        totalValue = 0;
     }
 
     public List<ComponentGroup> getOrderedGroups() {

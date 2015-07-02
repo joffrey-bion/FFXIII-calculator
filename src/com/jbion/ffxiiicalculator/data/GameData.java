@@ -72,12 +72,12 @@ public class GameData {
 
     public double getMaxBonusRatio(int currentChapter) {
         return syntheticComponents.stream().filter(c -> c.isBuyable(currentChapter))
-                .mapToDouble(Component::getBonusRatio).max().orElse(0);
+                .mapToDouble(Component::getBonusBuyPriceRatio).max().orElse(0);
     }
 
     public double getMaxExpRatio(int currentChapter, int targetRank) {
         return syntheticComponents.stream().filter(c -> c.isBuyable(currentChapter))
-                .mapToDouble(c -> c.getExpRatio(targetRank)).max().orElse(0);
+                .mapToDouble(c -> c.getExpBuyPriceRatio(targetRank)).max().orElse(0);
     }
 
 }
