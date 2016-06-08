@@ -2,10 +2,10 @@ package com.jbion.ffxiiicalculator.model;
 
 public class Component extends Item {
 
-    public static enum Type {
+    public enum Type {
         ORGANIC,
         SYNTHETIC,
-        CATALYST;
+        CATALYST
     }
 
     private final Type type;
@@ -36,6 +36,10 @@ public class Component extends Item {
 
     public boolean isSynthetic() {
         return type == Type.SYNTHETIC;
+    }
+
+    public boolean isCatalyst() {
+        return type == Type.CATALYST;
     }
 
     public int getExperience(int itemRank) {

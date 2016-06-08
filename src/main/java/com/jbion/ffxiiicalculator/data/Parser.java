@@ -122,7 +122,7 @@ public class Parser {
         return accessories.stream().filter(c -> c.getName().equalsIgnoreCase(name)).findAny().orElse(null);
     }
 
-    public void parseFile(String filename, String delimiter, Consumer<String[]> rowParser) {
+    private void parseFile(String filename, String delimiter, Consumer<String[]> rowParser) {
         InputStream stream = getClass().getResourceAsStream(filename);
         try (CsvReader reader = new CsvReader(stream, delimiter)) {
             reader.readRow(); // skip the header
@@ -135,8 +135,8 @@ public class Parser {
         }
     }
 
-    public void parseFileWithDependentRows(String filename, String delimiter,
-            BiConsumer<String[], Collection<String[]>> rowParser) {
+    private void parseFileWithDependentRows(String filename, String delimiter,
+                                            BiConsumer<String[], Collection<String[]>> rowParser) {
         final List<String[]> dependentRowsInFile = new ArrayList<>();
         parseFile(filename, delimiter, r -> rowParser.accept(r, dependentRowsInFile));
 
@@ -275,17 +275,17 @@ public class Parser {
     public void printData() {
         System.out.println("======== COMPONENTS (" + components.size() + ") ========");
         System.out.println();
-        components.stream().forEach(c -> System.out.println(c));
+        components.forEach(System.out::println);
         System.out.println();
 
         System.out.println("======== WEAPONS (" + weapons.size() + ") ========");
         System.out.println();
-        weapons.stream().forEach(c -> System.out.println(c));
+        weapons.forEach(System.out::println);
         System.out.println();
 
         System.out.println("======== ACCESSORIES (" + accessories.size() + ") ========");
         System.out.println();
-        accessories.stream().forEach(c -> System.out.println(c));
+        accessories.forEach(System.out::println);
         System.out.println();
     }
 }

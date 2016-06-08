@@ -22,16 +22,14 @@ public class GameData {
 
     private final Set<Accessory> accessories;
 
-    public GameData(Set<Component> components, Set<Weapon> weapons, Set<Accessory> accessories) {
+    GameData(Set<Component> components, Set<Weapon> weapons, Set<Accessory> accessories) {
         this.allComponents = components;
         this.weapons = weapons;
         this.accessories = accessories;
 
-        this.organicComponents = components.stream().filter(c -> c.getType() == Type.ORGANIC)
-                .collect(Collectors.toSet());
-        this.syntheticComponents = components.stream().filter(c -> c.getType() == Type.SYNTHETIC)
-                .collect(Collectors.toSet());
-        this.catalysts = components.stream().filter(c -> c.getType() == Type.CATALYST).collect(Collectors.toSet());
+        this.organicComponents = components.stream().filter(Component::isOrganic).collect(Collectors.toSet());
+        this.syntheticComponents = components.stream().filter(Component::isSynthetic).collect(Collectors.toSet());
+        this.catalysts = components.stream().filter(Component::isCatalyst).collect(Collectors.toSet());
     }
 
     public Component findComponent(String name) {
@@ -71,13 +69,18 @@ public class GameData {
     }
 
     public double getMaxBonusRatio(int currentChapter) {
-        return syntheticComponents.stream().filter(c -> c.isBuyable(currentChapter))
-                .mapToDouble(Component::getBonusBuyPriceRatio).max().orElse(0);
+        return syntheticComponents.stream()
+                                  .filter(c -> c.isBuyable(currentChapter))
+                                  .mapToDouble(Component::getBonusBuyPriceRatio)
+                                  .max()
+                                  .orElse(0);
     }
 
     public double getMaxExpRatio(int currentChapter, int targetRank) {
-        return syntheticComponents.stream().filter(c -> c.isBuyable(currentChapter))
-                .mapToDouble(c -> c.getExpBuyPriceRatio(targetRank)).max().orElse(0);
+        return syntheticComponents.stream()
+                                  .filter(c -> c.isBuyable(currentChapter))
+                                  .mapToDouble(c -> c.getExpBuyPriceRatio(targetRank))
+                                  .max()
+                                  .orElse(0);
     }
-
 }
