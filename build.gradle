@@ -1,0 +1,19 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'idea'
+apply plugin: 'application'
+
+group = 'org.hildan'
+version = '1.7'
+sourceCompatibility = 1.8
+description = ''
+
+mainClassName = "com.jbion.ffxiiicalculator.Main"
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile 'org.hildan.utils:csv-utils:1.1'
+}

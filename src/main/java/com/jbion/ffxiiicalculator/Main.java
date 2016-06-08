@@ -1,31 +1,12 @@
 package com.jbion.ffxiiicalculator;
 
-import javafx.application.Application;
-import javafx.scene.Scene;
-import javafx.scene.layout.BorderPane;
-import javafx.stage.Stage;
-
 import com.jbion.ffxiiicalculator.data.GameData;
 import com.jbion.ffxiiicalculator.data.Parser;
 import com.jbion.ffxiiicalculator.model.Component;
 import com.jbion.ffxiiicalculator.model.ComponentPool;
 import com.jbion.ffxiiicalculator.model.ComponentSequence;
 
-public class Main extends Application {
-
-    @Override
-    public void start(Stage primaryStage) {
-        try {
-            BorderPane root = new BorderPane();
-            Scene scene = new Scene(root, 400, 400);
-            scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
-            primaryStage.setTitle("Final Fantasy XIII Calculator");
-            primaryStage.setScene(scene);
-            primaryStage.show();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
+public class Main {
 
     public static void main(String[] args) {
         Parser parser = new Parser();
@@ -76,8 +57,5 @@ public class Main extends Application {
         //        System.out.println();
         //        System.out.println("Here is the upgrade plan:");
         //        System.out.println(plan);
-
-        //launch(args);
-        System.exit(0);
     }
 }
