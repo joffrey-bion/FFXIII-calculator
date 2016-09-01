@@ -7,11 +7,14 @@ public class ComponentSequence {
 
     private final LinkedList<ComponentGroup> components = new LinkedList<>();
 
+    private long totalBonusPoints = 0;
+
     private long totalValue = 0;
 
     private void add(ComponentGroup group) {
         components.add(group);
         totalValue += group.getCount() * group.getType().getSellPrice();
+        totalBonusPoints += group.getCount() * group.getType().getBonusPoints();
     }
 
     public void add(Component type, int count) {
@@ -28,6 +31,7 @@ public class ComponentSequence {
         }
         ComponentGroup group = components.removeLast();
         totalValue -= group.getCount() * group.getType().getSellPrice();
+        totalBonusPoints -= group.getCount() * group.getType().getBonusPoints();
     }
 
     public long getTotalValue() {
@@ -35,12 +39,13 @@ public class ComponentSequence {
     }
 
     public long getTotalBonusPoints() {
-        return components.stream().mapToInt(g -> g.getCount() * g.getType().getBonusPoints()).sum();
+        return totalBonusPoints;
     }
 
     public void clear() {
         components.clear();
         totalValue = 0;
+        totalBonusPoints = 0;
     }
 
     List<ComponentGroup> getOrderedGroups() {
